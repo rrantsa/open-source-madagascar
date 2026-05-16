@@ -59,6 +59,10 @@ These category pages are part of the planned catalogue structure and will be pop
 - Read the contribution guide in [CONTRIBUTING.md](CONTRIBUTING.md).
 - Review the direction of the project in [ROADMAP.md](ROADMAP.md).
 - Use the PRD in [docs/PRD_Open_Source_Madagascar.md](docs/PRD_Open_Source_Madagascar.md) as the product reference.
+- Use [docs/repository-entry-format.md](docs/repository-entry-format.md) for the canonical Markdown entry format and category values.
+- Use [data/repositories.schema.json](data/repositories.schema.json) for the machine-readable catalogue schema.
+- Use [docs/maintainer-review-checklist.md](docs/maintainer-review-checklist.md) and [docs/label-guide.md](docs/label-guide.md) for triage and review conventions.
+- Use [docs/manual-pr-validation-workflow.md](docs/manual-pr-validation-workflow.md) when running a manual Codex review of incoming pull requests.
 - Propose repositories that are open source and clearly relevant to Madagascar.
 
 ## Repository Structure
@@ -90,6 +94,7 @@ open-source-madagascar/
 
   data/
     repositories.json
+    repositories.schema.json
 
   templates/
     project-submission.md
@@ -97,9 +102,14 @@ open-source-madagascar/
 
   docs/
     PRD_Open_Source_Madagascar.md
+    repository-entry-format.md
     project-selection-criteria.md
     status-definition.md
     contribution-process.md
+    maintainer-review-checklist.md
+    label-guide.md
+    outreach-message.md
+    manual-pr-validation-workflow.md
 ```
 
 ## Project Principles

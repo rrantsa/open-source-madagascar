@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Open Source Madagascar Repository Catalogue",
+  "description": "Schema for machine-readable repository entries used by Open Source Madagascar.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "name",
+      "url",
+      "description",
+      "category",
+      "language",
+      "license",
+      "status",
+      "madagascar_relevance"
+    ],
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://"
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "payments",
+          "ecommerce",
+          "delivery-addressing",
+          "education",
+          "health",
+          "agriculture",
+          "public-services",
+          "language-ai",
+          "culture-history",
+          "developer-tools",
+          "datasets",
+          "offline-first",
+          "security-identity"
+        ]
+      },
+      "language": {
+        "type": "string",
+        "minLength": 1
+      },
+      "framework": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "license": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Prefer SPDX identifiers. Use 'unknown' only when the license cannot be verified."
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "active",
+          "experimental",
+          "stable",
+          "inactive",
+          "archived",
+          "unknown"
+        ]
+      },
+      "maintainer": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "target_users": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "madagascar_relevance": {
+        "type": "string",
+        "minLength": 1
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "notes": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    }
+  }
+}

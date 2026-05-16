@@ -2,58 +2,68 @@
 
 This checklist is derived from `docs/PRD_Open_Source_Madagascar.md` and focuses on turning the repository into the MVP described in the PRD.
 
+## Progress Rule
+
+- [x] Update this todo file whenever a phase is completed.
+
 ## Phase 1 - Foundation
 
-- [ ] Rewrite `README.md` with the project name, summary, vision, objectives, and repository structure.
-- [ ] Add README links to every category file.
-- [ ] Add a short explanation of who the repository is for.
-- [ ] Add contribution entry points in the README.
-- [ ] Create `CONTRIBUTING.md`.
-- [ ] Document how to submit a repository.
-- [ ] Document pull request steps for contributors.
-- [ ] Document required metadata fields for each project entry.
-- [ ] Document acceptance and rejection criteria.
-- [ ] Create `CODE_OF_CONDUCT.md`.
-- [ ] Create `LICENSE`.
-- [ ] Create `ROADMAP.md`.
-- [ ] Split the roadmap into MVP, short-term, medium-term, and long-term goals.
+- [x] Rewrite `README.md` with the project name, summary, vision, objectives, and repository structure.
+- [x] Add README links to every category file.
+- [x] Add a short explanation of who the repository is for.
+- [x] Add contribution entry points in the README.
+- [x] Create `CONTRIBUTING.md`.
+- [x] Document how to submit a repository.
+- [x] Document pull request steps for contributors.
+- [x] Document required metadata fields for each project entry.
+- [x] Document acceptance and rejection criteria.
+- [x] Create `CODE_OF_CONDUCT.md`.
+- [x] Create `LICENSE`.
+- [x] Create `ROADMAP.md`.
+- [x] Split the roadmap into MVP, short-term, medium-term, and long-term goals.
+
+Phase 1 status: Completed on 2026-05-16.
 
 ## Phase 2 - Repository Structure
 
-- [ ] Create the `categories/` directory.
-- [ ] Create `categories/payments.md`.
-- [ ] Create `categories/ecommerce.md`.
-- [ ] Create `categories/delivery-addressing.md`.
-- [ ] Create `categories/education.md`.
-- [ ] Create `categories/health.md`.
-- [ ] Create `categories/agriculture.md`.
-- [ ] Create `categories/public-services.md`.
-- [ ] Create `categories/language-ai.md`.
-- [ ] Create `categories/culture-history.md`.
-- [ ] Create `categories/developer-tools.md`.
-- [ ] Create `categories/datasets.md`.
-- [ ] Create `categories/offline-first.md`.
-- [ ] Create `categories/security-identity.md`.
-- [ ] Create the `data/` directory.
-- [ ] Create `data/repositories.json`.
-- [ ] Create the `templates/` directory.
-- [ ] Create `templates/project-submission.md`.
-- [ ] Create `templates/category-template.md`.
-- [ ] Create `docs/project-selection-criteria.md`.
-- [ ] Create `docs/status-definition.md`.
-- [ ] Create `docs/contribution-process.md`.
+- [x] Create the `categories/` directory.
+- [x] Create `categories/payments.md`.
+- [x] Create `categories/ecommerce.md`.
+- [x] Create `categories/delivery-addressing.md`.
+- [x] Create `categories/education.md`.
+- [x] Create `categories/health.md`.
+- [x] Create `categories/agriculture.md`.
+- [x] Create `categories/public-services.md`.
+- [x] Create `categories/language-ai.md`.
+- [x] Create `categories/culture-history.md`.
+- [x] Create `categories/developer-tools.md`.
+- [x] Create `categories/datasets.md`.
+- [x] Create `categories/offline-first.md`.
+- [x] Create `categories/security-identity.md`.
+- [x] Create the `data/` directory.
+- [x] Create `data/repositories.json`.
+- [x] Create the `templates/` directory.
+- [x] Create `templates/project-submission.md`.
+- [x] Create `templates/category-template.md`.
+- [x] Create `docs/project-selection-criteria.md`.
+- [x] Create `docs/status-definition.md`.
+- [x] Create `docs/contribution-process.md`.
+
+Phase 2 status: Completed on 2026-05-16.
 
 ## Phase 3 - Standards and Templates
 
-- [ ] Define the standard Markdown format for each repository entry.
-- [ ] Define the JSON schema shape for repository entries.
-- [ ] Add allowed status values: `active`, `experimental`, `stable`, `inactive`, `archived`, `unknown`.
-- [ ] Define how to mark unknown or missing license information.
-- [ ] Define category naming conventions between Markdown files and JSON values.
-- [ ] Add inclusion criteria based on the PRD.
-- [ ] Add exclusion criteria based on the PRD.
-- [ ] Add Madagascar relevance guidance with examples.
-- [ ] Add a copy-paste submission template for issues or pull requests.
+- [x] Define the standard Markdown format for each repository entry.
+- [x] Define the JSON schema shape for repository entries.
+- [x] Add allowed status values: `active`, `experimental`, `stable`, `inactive`, `archived`, `unknown`.
+- [x] Define how to mark unknown or missing license information.
+- [x] Define category naming conventions between Markdown files and JSON values.
+- [x] Add inclusion criteria based on the PRD.
+- [x] Add exclusion criteria based on the PRD.
+- [x] Add Madagascar relevance guidance with examples.
+- [x] Add a copy-paste submission template for issues or pull requests.
+
+Phase 3 status: Completed on 2026-05-16.
 
 ## Phase 4 - Initial Catalogue Content
 
@@ -77,11 +87,13 @@ This checklist is derived from `docs/PRD_Open_Source_Madagascar.md` and focuses 
 
 ## Phase 6 - Community Readiness
 
-- [ ] Add a GitHub issue template for project submission.
-- [ ] Add a pull request template.
-- [ ] Create a simple review checklist for maintainers.
-- [ ] Define labels for status, category, and contribution flow.
-- [ ] Prepare a short outreach message to invite contributors.
+- [x] Add a GitHub issue template for project submission.
+- [x] Add a pull request template.
+- [x] Create a simple review checklist for maintainers.
+- [x] Define labels for status, category, and contribution flow.
+- [x] Prepare a short outreach message to invite contributors.
+
+Phase 6 status: Completed on 2026-05-16.
 
 ## Phase 7 - Automation and Future Work
 
@@ -94,12 +106,12 @@ This checklist is derived from `docs/PRD_Open_Source_Madagascar.md` and focuses 
 
 ## MVP Exit Checklist
 
-- [ ] `README.md` explains the project clearly.
-- [ ] README links to all category files.
-- [ ] `CONTRIBUTING.md` exists and is usable.
-- [ ] `templates/project-submission.md` exists and includes all required fields.
-- [ ] `data/repositories.json` exists and is valid.
-- [ ] `ROADMAP.md` exists and reflects the PRD phases.
-- [ ] At least 10 category files exist.
+- [x] `README.md` explains the project clearly.
+- [x] README links to all category files.
+- [x] `CONTRIBUTING.md` exists and is usable.
+- [x] `templates/project-submission.md` exists and includes all required fields.
+- [x] `data/repositories.json` exists and is valid.
+- [x] `ROADMAP.md` exists and reflects the PRD phases.
+- [x] At least 10 category files exist.
 - [ ] At least 20 repositories are listed.
 - [ ] Every repository entry includes status, license, and Madagascar relevance.

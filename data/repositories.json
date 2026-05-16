@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Sekoliko",
+    "url": "https://github.com/julkwel/sekoliko",
+    "description": "Open source school management web application for school and university operations, including fee management, reporting, attendance, and administration workflows.",
+    "category": "education",
+    "language": "PHP",
+    "framework": "Symfony 4",
+    "license": "MIT",
+    "status": "unknown",
+    "maintainer": "julkwel",
+    "target_users": [
+      "schools",
+      "universities",
+      "administrators",
+      "teachers"
+    ],
+    "madagascar_relevance": "The project README explicitly describes Sekoliko as a SaaS app for schools and universities in Madagascar, making it directly relevant to local education administration needs.",
+    "tags": [
+      "madagascar",
+      "education",
+      "school-management",
+      "symfony",
+      "php"
+    ],
+    "notes": "The repository README and GitHub topics indicate a Symfony-based school management platform. Status is marked 'unknown' because current maintenance level was not confidently verified during manual review."
+  },
+  {
+    "name": "Madagascar Map",
+    "url": "https://github.com/julkwel/madagascar-map",
+    "description": "Open dataset repository listing Malagasy regions, districts, communes, towns, and fokontany, with JSON files intended for reuse in applications and APIs.",
+    "category": "datasets",
+    "language": "JSON",
+    "framework": null,
+    "license": "MIT",
+    "status": "unknown",
+    "maintainer": "julkwel",
+    "target_users": [
+      "developers",
+      "researchers",
+      "NGOs",
+      "public institutions"
+    ],
+    "madagascar_relevance": "The repository provides structured administrative and locality data for Madagascar, including regions, districts, communes, and fokontany, which is directly useful for local mapping, public-service, delivery, and civic applications.",
+    "tags": [
+      "madagascar",
+      "dataset",
+      "map",
+      "regions",
+      "fokontany"
+    ],
+    "notes": "The repository README describes the project as a list of Malagasy administrative divisions and localities, with possible API and geographic extensions. Status is marked 'unknown' because current maintenance level was not confidently verified during manual review."
+  },
+  {
+    "name": "PCG 2005",
+    "url": "https://github.com/mamyraoby/pcg-2005",
+    "description": "Structured data repository for the PCG 2005 chart of accounts used in Malagasy accounting.",
+    "category": "datasets",
+    "language": "JSON",
+    "framework": null,
+    "license": "unknown",
+    "status": "unknown",
+    "maintainer": "mamyraoby",
+    "target_users": [
+      "developers",
+      "accountants",
+      "SMEs",
+      "finance software builders"
+    ],
+    "madagascar_relevance": "The repository contains structured data for the Madagascar PCG 2005 accounting framework, which is directly relevant for local accounting, bookkeeping, ERP, and financial software.",
+    "tags": [
+      "madagascar",
+      "dataset",
+      "accounting",
+      "pcg-2005",
+      "finance"
+    ],
+    "notes": "The repository README describes the project as structured PCG 2005 data for Madagascar. License is marked 'unknown' because a reusable license could not be confidently verified from the repository page reviewed. Status is marked 'unknown' because current maintenance level was not confidently verified during manual review."
+  }
+]

@@ -50,6 +50,8 @@ When proposing a project, include the following fields whenever possible:
 - Madagascar relevance
 - Notes or caveats
 
+For the exact entry layout, category slugs, and license guidance, use `docs/repository-entry-format.md`.
+
 ## Status Values
 
 Use one of these values:
@@ -61,6 +63,8 @@ Use one of these values:
 - `archived`: read-only or no longer maintained
 - `unknown`: status cannot be verified
 
+Full status guidance is defined in `docs/status-definition.md`.
+
 ## Acceptance Criteria
 
 Submissions are more likely to be accepted when they:
@@ -71,6 +75,8 @@ Submissions are more likely to be accepted when they:
 - fit an existing category or motivate a clear new one;
 - explain why the project matters for Madagascar;
 - avoid duplicate entries already present in the catalogue.
+
+Detailed inclusion and exclusion logic is described in `docs/project-selection-criteria.md`.
 
 ## Rejection Criteria
 
@@ -86,15 +92,17 @@ A submission may be rejected if:
 
 ## How to Submit a Repository
 
-Until the full submission template and category catalogue are in place, use this lightweight flow:
+Use this lightweight flow:
 
 1. Fork the repository.
 2. Create a branch for your change.
-3. Add your proposal in Markdown using the metadata listed above.
+3. Copy `templates/project-submission.md` into your issue or pull request, or add the entry directly to the correct category file using the standard repository entry format.
 4. If relevant files already exist, place the proposal in the matching category file and keep the format consistent.
 5. Open a pull request with a clear title and a short explanation of the repository's Madagascar relevance.
 
 If you are not ready to open a pull request, you can still open an issue describing the project you want to add.
+
+GitHub issue and pull request templates are available in `.github/` to make submissions easier.
 
 ## Pull Request Guidelines
 
@@ -115,3 +123,7 @@ Maintainers will review contributions for:
 - basic trust and safety concerns.
 
 The goal is to keep the repository open to contributors while maintaining a useful and credible catalogue.
+
+Maintainers can use `docs/maintainer-review-checklist.md` and `docs/label-guide.md` to keep triage consistent.
+
+When a pull request is reviewed through Codex, maintainers should also follow `docs/manual-pr-validation-workflow.md`.
