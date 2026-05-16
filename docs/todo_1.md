@@ -97,6 +97,7 @@ Phase 6 status: Completed on 2026-05-16.
 
 ## Phase 7 - Automation and Future Work
 
+- [x] Generate README catalogue stats from `data/repositories.json`.
 - [ ] Add JSON validation.
 - [ ] Add broken-link checking.
 - [ ] Add GitHub Actions for validation workflows.

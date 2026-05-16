@@ -1,4 +1,4 @@
-# Open Source Madagascar
+﻿# Open Source Madagascar
 
 A curated list of open source projects, tools, datasets, libraries, standards, and starter kits created by Malagasy developers or useful for the Malagasy context.
 
@@ -35,6 +35,54 @@ The MVP of this repository is a structured GitHub catalogue with:
 - machine-readable repository data for future reuse.
 
 The MVP does not yet include a full website, automated crawling, user accounts, or project scoring.
+
+## Catalogue Stats
+
+This section is generated from `data/repositories.json`.
+
+<!-- STATS:START -->
+- Total repositories: **8**
+- Categories represented: **5 / 13**
+- Repositories with known licenses: **6**
+- Repositories with unknown licenses: **2**
+- Repositories with unknown status: **4**
+
+### By Category
+
+| Category | Slug | Count |
+|---|---|---:|
+| Payments | `payments` | 0 |
+| E-commerce | `ecommerce` | 0 |
+| Delivery and Addressing | `delivery-addressing` | 1 |
+| Education | `education` | 1 |
+| Health | `health` | 0 |
+| Agriculture | `agriculture` | 0 |
+| Public Services | `public-services` | 0 |
+| Language and AI | `language-ai` | 3 |
+| Culture and History | `culture-history` | 0 |
+| Developer Tools | `developer-tools` | 1 |
+| Datasets | `datasets` | 2 |
+| Offline-first | `offline-first` | 0 |
+| Security and Identity | `security-identity` | 0 |
+
+### By Status
+
+| Value | Count |
+|---|---:|
+| unknown | 4 |
+| experimental | 3 |
+| stable | 1 |
+
+### By License
+
+| Value | Count |
+|---|---:|
+| MIT | 3 |
+| unknown | 2 |
+| BSD-3-Clause | 1 |
+| GPL-3.0 | 1 |
+| MPL-2.0 | 1 |
+<!-- STATS:END -->
 
 ## Planned Category Files
 
@@ -100,6 +148,9 @@ open-source-madagascar/
     project-submission.md
     category-template.md
 
+  scripts/
+    update_readme_stats.ps1
+
   docs/
     PRD_Open_Source_Madagascar.md
     repository-entry-format.md
@@ -126,4 +177,8 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 
 ## Current Status
 
-The repository is in foundation mode. The immediate priority is to finalize the documentation structure, create category files, define submission standards, and begin curating the first set of listed repositories.
+The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, and JSON-driven README stats are in place. The immediate priority is to expand the catalogue toward 10 and then 20 validated repositories while keeping metadata, relevance, and license clarity consistent.
+
+
+
+
