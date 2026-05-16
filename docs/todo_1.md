@@ -67,7 +67,7 @@ Phase 3 status: Completed on 2026-05-16.
 
 ## Phase 4 - Initial Catalogue Content
 
-- [ ] Add 5 initial example repositories to validate the structure.
+- [x] Add 5 initial example repositories to validate the structure.
 - [ ] Expand to 10 initial repositories across multiple categories.
 - [ ] Expand to at least 20 repositories to meet the MVP target.
 - [ ] Ensure each repository entry includes project name, repository URL, description, category, language, framework when available, license, status, maintainer when available, target users, Madagascar relevance, and optional notes.

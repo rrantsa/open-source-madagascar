@@ -76,5 +76,109 @@
       "finance"
     ],
     "notes": "The repository README describes the project as structured PCG 2005 data for Madagascar. License is marked 'unknown' because a reusable license could not be confidently verified from the repository page reviewed. Status is marked 'unknown' because current maintenance level was not confidently verified during manual review."
+  },
+  {
+    "name": "Gasy Corpus Crawler",
+    "url": "https://github.com/SetraC4Ci/Gasy-Corpus-Crawler",
+    "description": "Python crawler toolkit for scraping Malagasy-language websites and building text corpora for dataset creation.",
+    "category": "language-ai",
+    "language": "Python",
+    "framework": "BeautifulSoup and Selenium",
+    "license": "MIT",
+    "status": "experimental",
+    "maintainer": "SetraC4Ci",
+    "target_users": [
+      "researchers",
+      "NLP builders",
+      "dataset curators",
+      "developers"
+    ],
+    "madagascar_relevance": "The repository is specifically designed to scrape Malagasy-language websites and build Malagasy text corpora, making it directly useful for local NLP, language modeling, and corpus creation work.",
+    "tags": [
+      "madagascar",
+      "malagasy",
+      "nlp",
+      "corpus",
+      "crawler"
+    ],
+    "notes": "The README presents the project as a set of scripts for corpus scraping with both BeautifulSoup and Selenium variants. The small commit history and script-oriented design suggest an experimental maturity level."
+  },
+  {
+    "name": "MMCLI",
+    "url": "https://github.com/HarimbolaSantatra/mm-cli",
+    "description": "Command-line Malagasy encyclopedia and dictionary client that queries Malagasyword.org and returns searchable word data.",
+    "category": "language-ai",
+    "language": "Go",
+    "framework": "Beautiful Soup parsing helper",
+    "license": "GPL-3.0",
+    "status": "experimental",
+    "maintainer": "HarimbolaSantatra",
+    "target_users": [
+      "developers",
+      "students",
+      "language learners",
+      "CLI users"
+    ],
+    "madagascar_relevance": "The tool is built specifically around Malagasy dictionary and encyclopedia lookup, which makes it directly relevant to Malagasy language access and language-tooling workflows.",
+    "tags": [
+      "madagascar",
+      "malagasy",
+      "dictionary",
+      "cli",
+      "language"
+    ],
+    "notes": "The README states that the latest release is the only stable version and that the rest remains a work in progress with unresolved issues, so 'experimental' is the safest catalogue status."
+  },
+  {
+    "name": "Mada CLI",
+    "url": "https://github.com/tsirysndr/mada",
+    "description": "CLI for searching Malagasy regions, districts, communes, and fokontany, with support for local geographic lookup and a web UI.",
+    "category": "delivery-addressing",
+    "language": "Go",
+    "framework": "Spatialite-backed CLI and web tooling",
+    "license": "BSD-3-Clause",
+    "status": "stable",
+    "maintainer": "tsirysndr",
+    "target_users": [
+      "developers",
+      "delivery services",
+      "mapping builders",
+      "public-service tool builders"
+    ],
+    "madagascar_relevance": "The project is built around Madagascar's administrative and locality structure, including regions, districts, communes, and fokontany, which is directly useful for local search, address handling, and territorial data workflows.",
+    "tags": [
+      "madagascar",
+      "fokontany",
+      "addressing",
+      "map",
+      "cli"
+    ],
+    "notes": "The repository has multiple releases, installation instructions, and a mature usage section, which supports a 'stable' catalogue status."
+  },
+  {
+    "name": "Rakibolana Malagasy",
+    "url": "https://github.com/Rohan29-AN/rakibolana_malagasy",
+    "description": "Dataset repository containing Malagasy words and their meanings in CSV, JSON, and SQLite formats.",
+    "category": "language-ai",
+    "language": "JSON",
+    "framework": null,
+    "license": "unknown",
+    "status": "unknown",
+    "maintainer": "Rohan29-AN",
+    "target_users": [
+      "developers",
+      "students",
+      "researchers",
+      "language learners"
+    ],
+    "madagascar_relevance": "The repository contains Malagasy lexical data and definitions, which is directly useful for dictionary tooling, search, NLP resources, and broader Malagasy language preservation work.",
+    "tags": [
+      "madagascar",
+      "malagasy",
+      "dictionary",
+      "dataset",
+      "language"
+    ],
+    "notes": "The repository README says the data is free to use and provides CSV, JSON, and SQLite exports, but a formal open source license could not be confidently verified from the repository page reviewed. Status is marked 'unknown' because current maintenance level was not confidently verified during manual review."
   }
 ]
