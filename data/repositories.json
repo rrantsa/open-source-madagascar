@@ -180,5 +180,31 @@
       "language"
     ],
     "notes": "The repository README says the data is free to use and provides CSV, JSON, and SQLite exports, but a formal open source license could not be confidently verified from the repository page reviewed. Status is marked 'unknown' because current maintenance level was not confidently verified during manual review."
+  },
+  {
+    "name": "Pocketenv",
+    "url": "https://github.com/pocketenv-io/pocketenv",
+    "description": "Open sandbox runtime for agents and humans that provides portable development environments across multiple backend providers.",
+    "category": "developer-tools",
+    "language": "TypeScript",
+    "framework": "Multi-backend sandbox CLI and SDK platform",
+    "license": "MPL-2.0",
+    "status": "experimental",
+    "maintainer": "pocketenv-io",
+    "target_users": [
+      "developers",
+      "AI builders",
+      "platform engineers",
+      "teams sharing development environments"
+    ],
+    "madagascar_relevance": "The repository was identified as being built by Malagasy developers, which makes it a relevant developer tool contribution from the local ecosystem and a reusable building block for Madagascar-based software teams.",
+    "tags": [
+      "madagascar",
+      "developer-tools",
+      "sandbox",
+      "agents",
+      "typescript"
+    ],
+    "notes": "The README describes Pocketenv as a universal sandbox runtime for agents and humans and explicitly warns that it is still in early development, so 'experimental' is the safest catalogue status."
   }
 ]
