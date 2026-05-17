@@ -206,5 +206,60 @@
       "typescript"
     ],
     "notes": "The README describes Pocketenv as a universal sandbox runtime for agents and humans and explicitly warns that it is still in early development, so 'experimental' is the safest catalogue status."
+  },
+  {
+    "name": "Imaginarium",
+    "url": "https://github.com/fenoh3ry/imaginarium",
+    "description": "AI-powered immersive platform for Malagasy cultural heritage education, featuring 7,237 ohabolana (Malagasy proverbs), RAG-powered chat, and auth-enabled learning experiences.",
+    "category": "language-ai",
+    "language": "Svelte",
+    "framework": "SvelteKit, Cloudflare Workers, D1, Hono",
+    "license": "MIT",
+    "status": "active",
+    "maintainer": "fenoh3ry",
+    "target_users": [
+      "students",
+      "teachers",
+      "researchers",
+      "Malagasy culture enthusiasts"
+    ],
+    "madagascar_relevance": "Built by Malagasy developers specifically for Madagascar's cultural heritage — hosts the largest open collection of ohabolana (7,237 proverbs) with RAG chat in Malagasy, live auth, and admin panel. Directly supports Malagasy language preservation and AI-assisted cultural education.",
+    "tags": [
+      "madagascar",
+      "malagasy",
+      "ohabolana",
+      "proverbs",
+      "rag",
+      "cultural-heritage",
+      "sveltekit",
+      "cloudflare"
+    ],
+    "notes": "Live at fable.fenohery.space. Actively maintained with recent commits (May 2026). Features JWT/D1 auth, favorites system, and an admin dashboard. The ohabolana dataset alone is a valuable NLP resource for Malagasy language AI."
+  },
+  {
+    "name": "Fataplus Tsena ny Tantsaha",
+    "url": "https://github.com/fenoh3ry/Fataplus-Tsena-ny-tantsaha",
+    "description": "Mobile application for Malagasy farmers to access agricultural market prices (\"Tsena ny Tantsaha\" = farmer prices), built to connect rural producers with fair market information.",
+    "category": "agriculture",
+    "language": "Dart",
+    "framework": "Flutter",
+    "license": "unknown",
+    "status": "inactive",
+    "maintainer": "fenoh3ry",
+    "target_users": [
+      "farmers",
+      "agricultural cooperatives",
+      "NGOs working in rural Madagascar"
+    ],
+    "madagascar_relevance": "Designed specifically for Malagasy farmers (\"Tsena ny Tantsaha\") to access agricultural market prices — addresses the information asymmetry between rural producers and urban markets, a critical issue in Madagascar's agriculture sector.",
+    "tags": [
+      "madagascar",
+      "agriculture",
+      "farmers",
+      "market-prices",
+      "flutter",
+      "dart"
+    ],
+    "notes": "License not specified in the repository. No recent activity since March 2024, marked as 'inactive'. The concept addresses a real pain point in Madagascar's agricultural supply chain — smallholder farmers lack real-time price transparency."
   }
 ]

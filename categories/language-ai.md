@@ -45,3 +45,17 @@ This category will list open source projects for Malagasy NLP, OCR, translation,
 - Target users: Developers, students, researchers, language learners
 - Madagascar relevance: The repository contains Malagasy lexical data and definitions, which is directly useful for dictionary tooling, search, NLP resources, and broader Malagasy language preservation work.
 - Notes: The repository README says the data is free to use and provides CSV, JSON, and SQLite exports, but a formal open source license could not be confidently verified from the repository page reviewed. Status is marked `unknown` because current maintenance level was not confidently verified during manual review.
+
+### Imaginarium
+
+- Repository: https://github.com/fenoh3ry/imaginarium
+- Description: AI-powered immersive platform for Malagasy cultural heritage education, featuring 7,237 ohabolana (Malagasy proverbs), RAG-powered chat, and auth-enabled learning experiences.
+- Category: language-ai
+- Language: Svelte
+- Framework: SvelteKit, Cloudflare Workers, D1, Hono
+- License: MIT
+- Status: active
+- Maintainer: fenoh3ry
+- Target users: Students, teachers, researchers, Malagasy culture enthusiasts
+- Madagascar relevance: Built by Malagasy developers specifically for Madagascar's cultural heritage — hosts the largest open collection of ohabolana (7,237 proverbs) with RAG chat in Malagasy, live auth, and admin panel. Directly supports Malagasy language preservation and AI-assisted cultural education.
+- Notes: Live at fable.fenohery.space. Actively maintained (May 2026). Features JWT/D1 auth, favorites system, admin dashboard. The ohabolana dataset alone is a valuable NLP resource for Malagasy language AI.
