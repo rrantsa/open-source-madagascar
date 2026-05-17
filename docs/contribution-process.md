@@ -11,9 +11,10 @@ Keep contributions easy while maintaining a readable and trustworthy catalogue.
 1. Identify a project that fits the repository mission.
 2. Gather the minimum metadata needed to describe it clearly.
 3. Use `templates/project-submission.md` if submitting through an issue or pull request discussion.
-4. Place the entry in the correct category file using the standard format from `docs/repository-entry-format.md`.
-5. Mirror the same project in `data/repositories.json` using `data/repositories.schema.json`.
-6. Open a pull request with a short explanation of the project's relevance to Madagascar.
+4. Place the entry in the correct primary category file using the standard format from `docs/repository-entry-format.md`.
+5. If the project clearly fits more than one category, keep one canonical Markdown entry and record the rest as `Additional categories`.
+6. Mirror the same project in `data/repositories.json` using `data/repositories.schema.json`, with secondary fits stored in `additional_categories`.
+7. Open a pull request with a short explanation of the project's relevance to Madagascar.
 
 ## Maintainer Review Focus
 
@@ -29,6 +30,7 @@ Keep contributions easy while maintaining a readable and trustworthy catalogue.
 - Explicitly mark uncertainty instead of guessing.
 - Keep submissions narrowly scoped and easy to review.
 - Use canonical category slugs and allowed status values exactly as documented.
+- Use one primary category plus optional secondary categories instead of duplicating the same repository entry across category files.
 - Use `unknown` for unverifiable license or status values instead of guessing.
 
 ## Notes

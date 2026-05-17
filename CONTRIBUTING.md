@@ -41,6 +41,7 @@ When proposing a project, include the following fields whenever possible:
 - Repository URL
 - Short description
 - Category
+- Additional categories when the project clearly fits more than one area
 - Language
 - Framework or runtime
 - License
@@ -51,6 +52,13 @@ When proposing a project, include the following fields whenever possible:
 - Notes or caveats
 
 For the exact entry layout, category slugs, and license guidance, use `docs/repository-entry-format.md`.
+
+## Categories and Cross-Listing
+
+- Give each repository one primary `Category`.
+- If a project clearly fits more than one area, add `Additional categories` instead of duplicating the full Markdown entry across multiple category files.
+- Keep one canonical Markdown entry for the repository under its primary category file.
+- Mirror `Additional categories` in `data/repositories.json` as `additional_categories`.
 
 ## Status Values
 
@@ -97,8 +105,9 @@ Use this lightweight flow:
 1. Fork the repository.
 2. Create a branch for your change.
 3. Copy `templates/project-submission.md` into your issue or pull request, or add the entry directly to the correct category file using the standard repository entry format.
-4. If relevant files already exist, place the proposal in the matching category file and keep the format consistent.
-5. Open a pull request with a clear title and a short explanation of the repository's Madagascar relevance.
+4. If relevant files already exist, place the proposal in the matching primary category file and keep the format consistent.
+5. If the repository also fits other category pages, record those as `Additional categories` instead of creating duplicate full entries.
+6. Open a pull request with a clear title and a short explanation of the repository's Madagascar relevance.
 
 If you are not ready to open a pull request, you can still open an issue describing the project you want to add.
 

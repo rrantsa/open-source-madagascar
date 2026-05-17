@@ -22,6 +22,7 @@ Describe what this pull request changes.
 
 - [ ] I followed `docs/repository-entry-format.md`.
 - [ ] I used canonical category slugs and allowed status values.
+- [ ] I used one primary category and, if needed, secondary categories instead of duplicating the same repository entry across category files.
 - [ ] I explained the Madagascar relevance clearly.
 - [ ] I avoided promotional language.
 - [ ] I marked unknown or unverifiable information explicitly instead of guessing.
