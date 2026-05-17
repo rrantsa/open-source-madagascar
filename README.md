@@ -42,29 +42,31 @@ This section is generated from `data/repositories.json`.
 
 <!-- STATS:START -->
 - Total repositories: **18**
-- Categories represented: **11 / 18**
+- Categories represented: **13 / 18**
 - Repositories with known licenses: **14**
 - Repositories with unknown licenses: **4**
 - Repositories with unknown status: **3**
 
 ### By Category
 
+_Counts include both primary `category` values and secondary `additional_categories` memberships._
+
 | Category | Slug | Count |
 |---|---|---:|
 | Payments | `payments` | 0 |
 | E-commerce | `ecommerce` | 0 |
-| Delivery and Addressing | `delivery-addressing` | 2 |
-| Education | `education` | 1 |
+| Delivery and Addressing | `delivery-addressing` | 4 |
+| Education | `education` | 2 |
 | Health | `health` | 0 |
 | Agriculture | `agriculture` | 1 |
-| Public Services | `public-services` | 1 |
+| Public Services | `public-services` | 3 |
 | Mobility | `mobility` | 1 |
-| Civic Tech | `civic-tech` | 0 |
+| Civic Tech | `civic-tech` | 1 |
 | Language and AI | `language-ai` | 6 |
-| Culture and History | `culture-history` | 0 |
+| Culture and History | `culture-history` | 2 |
 | Meta Catalogue | `meta-catalogue` | 1 |
-| Developer Tools | `developer-tools` | 1 |
-| Datasets | `datasets` | 2 |
+| Developer Tools | `developer-tools` | 3 |
+| Datasets | `datasets` | 4 |
 | Environment | `environment` | 1 |
 | Community | `community` | 1 |
 | Offline-first | `offline-first` | 0 |
@@ -197,3 +199,4 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 ## Current Status
 
 The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, and JSON-driven README stats are in place. The immediate priority is to expand the catalogue from 18 toward 20 validated repositories while keeping metadata, relevance, and license clarity consistent.
+

@@ -77,6 +77,8 @@ function New-CategoryTable {
     $lines = @(
         "### By Category",
         "",
+        '_Counts include both primary `category` values and secondary `additional_categories` memberships._',
+        "",
         "| Category | Slug | Count |",
         "|---|---|---:|"
     )
@@ -100,11 +102,19 @@ $statusCounts = @{}
 $licenseCounts = @{}
 
 foreach ($item in $items) {
-    if (-not $categoryCounts.ContainsKey($item.category)) { $categoryCounts[$item.category] = 0 }
     if (-not $statusCounts.ContainsKey($item.status)) { $statusCounts[$item.status] = 0 }
     if (-not $licenseCounts.ContainsKey($item.license)) { $licenseCounts[$item.license] = 0 }
 
-    $categoryCounts[$item.category] += 1
+    $itemCategories = @($item.category)
+    if ($null -ne $item.additional_categories) {
+        $itemCategories += @($item.additional_categories)
+    }
+
+    foreach ($category in ($itemCategories | Select-Object -Unique)) {
+        if (-not $categoryCounts.ContainsKey($category)) { $categoryCounts[$category] = 0 }
+        $categoryCounts[$category] += 1
+    }
+
     $statusCounts[$item.status] += 1
     $licenseCounts[$item.license] += 1
 }
