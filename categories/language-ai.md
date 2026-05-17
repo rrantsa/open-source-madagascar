@@ -73,3 +73,18 @@ This category will list open source projects for Malagasy NLP, OCR, translation,
 - Target users: AI builders, students, accessibility-focused developers, language technologists
 - Madagascar relevance: The project is a rare open experiment focused on Malagasy speech synthesis, which makes it strategically important for local language AI and accessibility work.
 - Notes: The repository is promising but still small and prototype-like, so `experimental` is the safest status despite recent visible activity.
+
+### Imaginarium
+
+- Repository: https://github.com/fenoh3ry/imaginarium
+- Description: AI-assisted platform for Malagasy cultural heritage education, centered on proverbs, oral tradition, and exploratory language experiences.
+- Category: language-ai
+- Additional categories: culture-history
+- Language: Svelte
+- Framework: SvelteKit, Cloudflare Workers, D1, Hono
+- License: MIT
+- Status: active
+- Maintainer: fenoh3ry
+- Target users: Students, teachers, researchers, Malagasy culture enthusiasts
+- Madagascar relevance: The project is built specifically around Malagasy cultural content and language exploration, making it directly relevant to Malagasy language preservation, heritage education, and local AI-assisted discovery workflows.
+- Notes: The public repository includes a clear MIT license and recent visible activity in May 2026. Its focus on ohabolana and other Malagasy oral-tradition content gives it clear secondary relevance to `culture-history`.

@@ -443,5 +443,64 @@
       "peer-learning"
     ],
     "notes": "The project remains highly visible and useful, but it is best catalogued as 'inactive' because it is no longer actively maintained."
+  },
+  {
+    "name": "Imaginarium",
+    "url": "https://github.com/fenoh3ry/imaginarium",
+    "description": "AI-assisted platform for Malagasy cultural heritage education, centered on proverbs, oral tradition, and exploratory language experiences.",
+    "category": "language-ai",
+    "additional_categories": [
+      "culture-history"
+    ],
+    "language": "Svelte",
+    "framework": "SvelteKit, Cloudflare Workers, D1, Hono",
+    "license": "MIT",
+    "status": "active",
+    "maintainer": "fenoh3ry",
+    "target_users": [
+      "students",
+      "teachers",
+      "researchers",
+      "Malagasy culture enthusiasts"
+    ],
+    "madagascar_relevance": "The project is built specifically around Malagasy cultural content and language exploration, making it directly relevant to Malagasy language preservation, heritage education, and local AI-assisted discovery workflows.",
+    "tags": [
+      "madagascar",
+      "malagasy",
+      "ohabolana",
+      "proverbs",
+      "language-ai",
+      "cultural-heritage",
+      "sveltekit",
+      "cloudflare"
+    ],
+    "notes": "The public repository includes a clear MIT license and recent visible activity in May 2026. Its focus on ohabolana and other Malagasy oral-tradition content gives it clear secondary relevance to culture-history."
+  },
+  {
+    "name": "Fataplus Tsena ny Tantsaha",
+    "url": "https://github.com/fenoh3ry/Fataplus-Tsena-ny-tantsaha",
+    "description": "Flutter mobile application branded Fataplus-Tsena; the public repository context is sparse, but the project appears intended for Malagasy market and pricing workflows.",
+    "category": "agriculture",
+    "language": "Dart",
+    "framework": "Flutter",
+    "license": "unknown",
+    "status": "inactive",
+    "maintainer": "fenoh3ry",
+    "target_users": [
+      "farmers",
+      "agricultural cooperatives",
+      "local market organizers",
+      "NGOs working in rural Madagascar"
+    ],
+    "madagascar_relevance": "The project name Tsena ny Tantsaha, app branding, and fata.plus backend references suggest a Madagascar-oriented local market application aimed at Malagasy users.",
+    "tags": [
+      "madagascar",
+      "agriculture",
+      "market",
+      "pricing",
+      "flutter",
+      "dart"
+    ],
+    "notes": "The repository does not currently include a clear open source license file, and its public README remains a default Flutter starter README. The catalogue entry should be revisited if upstream documentation becomes more explicit."
   }
 ]

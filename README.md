@@ -41,10 +41,10 @@ The MVP does not yet include a full website, automated crawling, user accounts, 
 This section is generated from `data/repositories.json`.
 
 <!-- STATS:START -->
-- Total repositories: **16**
-- Categories represented: **10 / 18**
-- Repositories with known licenses: **13**
-- Repositories with unknown licenses: **3**
+- Total repositories: **18**
+- Categories represented: **11 / 18**
+- Repositories with known licenses: **14**
+- Repositories with unknown licenses: **4**
 - Repositories with unknown status: **3**
 
 ### By Category
@@ -56,11 +56,11 @@ This section is generated from `data/repositories.json`.
 | Delivery and Addressing | `delivery-addressing` | 2 |
 | Education | `education` | 1 |
 | Health | `health` | 0 |
-| Agriculture | `agriculture` | 0 |
+| Agriculture | `agriculture` | 1 |
 | Public Services | `public-services` | 1 |
 | Mobility | `mobility` | 1 |
 | Civic Tech | `civic-tech` | 0 |
-| Language and AI | `language-ai` | 5 |
+| Language and AI | `language-ai` | 6 |
 | Culture and History | `culture-history` | 0 |
 | Meta Catalogue | `meta-catalogue` | 1 |
 | Developer Tools | `developer-tools` | 1 |
@@ -74,9 +74,9 @@ This section is generated from `data/repositories.json`.
 
 | Value | Count |
 |---|---:|
+| inactive | 5 |
+| active | 4 |
 | experimental | 4 |
-| inactive | 4 |
-| active | 3 |
 | unknown | 3 |
 | stable | 2 |
 
@@ -84,8 +84,8 @@ This section is generated from `data/repositories.json`.
 
 | Value | Count |
 |---|---:|
-| MIT | 7 |
-| unknown | 3 |
+| MIT | 8 |
+| unknown | 4 |
 | GPL-3.0 | 2 |
 | BSD-3-Clause | 1 |
 | CC0-1.0 | 1 |
@@ -196,5 +196,4 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 
 ## Current Status
 
-The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, and JSON-driven README stats are in place. The immediate priority is to expand the catalogue from 16 toward 20 validated repositories while keeping metadata, relevance, and license clarity consistent.
-
+The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, and JSON-driven README stats are in place. The immediate priority is to expand the catalogue from 18 toward 20 validated repositories while keeping metadata, relevance, and license clarity consistent.
