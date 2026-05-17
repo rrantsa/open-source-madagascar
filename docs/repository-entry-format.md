@@ -12,6 +12,7 @@ Use this structure inside category files:
 - Repository: https://github.com/example/project-name
 - Description: Short explanation of what the project does.
 - Category: payments
+- Additional categories: ecommerce, developer-tools
 - Language: TypeScript
 - Framework: Node.js
 - License: MIT
@@ -39,6 +40,7 @@ Every repository entry should include:
 
 Add these when the information is available:
 
+- `Additional categories`
 - `Framework`
 - `Maintainer`
 - `Target users`
@@ -57,12 +59,24 @@ The category value in Markdown and JSON should match one of these slugs exactly:
 | `health` | `categories/health.md` |
 | `agriculture` | `categories/agriculture.md` |
 | `public-services` | `categories/public-services.md` |
+| `mobility` | `categories/mobility.md` |
+| `civic-tech` | `categories/civic-tech.md` |
 | `language-ai` | `categories/language-ai.md` |
 | `culture-history` | `categories/culture-history.md` |
+| `meta-catalogue` | `categories/meta-catalogue.md` |
 | `developer-tools` | `categories/developer-tools.md` |
 | `datasets` | `categories/datasets.md` |
+| `environment` | `categories/environment.md` |
+| `community` | `categories/community.md` |
 | `offline-first` | `categories/offline-first.md` |
 | `security-identity` | `categories/security-identity.md` |
+
+## Primary And Additional Categories
+
+- Use `Category` for the repository's primary home in the Markdown catalogue.
+- Use `Additional categories` when a project clearly belongs to multiple category slices.
+- Keep one canonical Markdown entry per repository under its primary category file to avoid duplicate full entries across category pages.
+- Mirror `Additional categories` in JSON as `additional_categories`.
 
 ## Status Values
 

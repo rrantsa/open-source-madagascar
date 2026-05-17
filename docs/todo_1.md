@@ -68,12 +68,14 @@ Phase 3 status: Completed on 2026-05-16.
 ## Phase 4 - Initial Catalogue Content
 
 - [x] Add 5 initial example repositories to validate the structure.
-- [ ] Expand to 10 initial repositories across multiple categories.
+- [x] Expand to 10 initial repositories across multiple categories.
 - [ ] Expand to at least 20 repositories to meet the MVP target.
-- [ ] Ensure each repository entry includes project name, repository URL, description, category, language, framework when available, license, status, maintainer when available, target users, Madagascar relevance, and optional notes.
-- [ ] Mirror every Markdown entry inside `data/repositories.json`.
-- [ ] Check that the JSON file remains valid after each batch of additions.
-- [ ] Avoid duplicate project entries across categories.
+- [x] Ensure each repository entry includes project name, repository URL, description, category, language, framework when available, license, status, maintainer when available, target users, Madagascar relevance, and optional notes.
+- [x] Mirror every Markdown entry inside `data/repositories.json`.
+- [x] Check that the JSON file remains valid after each batch of additions.
+- [x] Avoid duplicate project entries across categories.
+
+Phase 4 status: Expanded to 16 repositories on 2026-05-17.
 
 ## Phase 5 - Quality and Review
 
@@ -115,4 +117,4 @@ Phase 6 status: Completed on 2026-05-16.
 - [x] `ROADMAP.md` exists and reflects the PRD phases.
 - [x] At least 10 category files exist.
 - [ ] At least 20 repositories are listed.
-- [ ] Every repository entry includes status, license, and Madagascar relevance.
+- [x] Every repository entry includes status, license, and Madagascar relevance.

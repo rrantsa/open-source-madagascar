@@ -30,10 +30,14 @@
     "url": "https://github.com/julkwel/madagascar-map",
     "description": "Open dataset repository listing Malagasy regions, districts, communes, towns, and fokontany, with JSON files intended for reuse in applications and APIs.",
     "category": "datasets",
+    "additional_categories": [
+      "delivery-addressing",
+      "public-services"
+    ],
     "language": "JSON",
     "framework": null,
     "license": "MIT",
-    "status": "unknown",
+    "status": "stable",
     "maintainer": "julkwel",
     "target_users": [
       "developers",
@@ -49,7 +53,7 @@
       "regions",
       "fokontany"
     ],
-    "notes": "The repository README describes the project as a list of Malagasy administrative divisions and localities, with possible API and geographic extensions. Status is marked 'unknown' because current maintenance level was not confidently verified during manual review."
+    "notes": "The repository provides a reusable territorial reference layer for Madagascar. A visible code push on 2024-01-08 supports a 'stable' catalogue status even without signs of heavy ongoing feature work."
   },
   {
     "name": "PCG 2005",
@@ -132,12 +136,15 @@
   {
     "name": "Mada CLI",
     "url": "https://github.com/tsirysndr/mada",
-    "description": "CLI for searching Malagasy regions, districts, communes, and fokontany, with support for local geographic lookup and a web UI.",
+    "description": "CLI and companion web tooling for searching Malagasy regions, districts, communes, and fokontany.",
     "category": "delivery-addressing",
-    "language": "Go",
-    "framework": "Spatialite-backed CLI and web tooling",
+    "additional_categories": [
+      "developer-tools"
+    ],
+    "language": "Go and TypeScript",
+    "framework": "CLI and web tooling",
     "license": "BSD-3-Clause",
-    "status": "stable",
+    "status": "active",
     "maintainer": "tsirysndr",
     "target_users": [
       "developers",
@@ -153,7 +160,7 @@
       "map",
       "cli"
     ],
-    "notes": "The repository has multiple releases, installation instructions, and a mature usage section, which supports a 'stable' catalogue status."
+    "notes": "The repository shows visible maintenance through 2026 and combines reusable territorial lookup with a developer-friendly CLI, making it a strong early catalogue entry."
   },
   {
     "name": "Rakibolana Malagasy",
@@ -206,5 +213,235 @@
       "typescript"
     ],
     "notes": "The README describes Pocketenv as a universal sandbox runtime for agents and humans and explicitly warns that it is still in early development, so 'experimental' is the safest catalogue status."
+  },
+  {
+    "name": "Awesome Madagascar",
+    "url": "https://github.com/luckasRanarison/awesome-madagascar",
+    "description": "Curated Markdown list of projects, tools, websites, and resources related to Madagascar.",
+    "category": "meta-catalogue",
+    "additional_categories": [
+      "developer-tools"
+    ],
+    "language": "Markdown",
+    "framework": "Markdown awesome list",
+    "license": "CC0-1.0",
+    "status": "active",
+    "maintainer": "luckasRanarison",
+    "target_users": [
+      "developers",
+      "students",
+      "researchers",
+      "ecosystem mappers"
+    ],
+    "madagascar_relevance": "The repository serves as a discovery layer for Madagascar-related projects and helps maintain ongoing ecosystem visibility across multiple technical domains.",
+    "tags": [
+      "madagascar",
+      "awesome-list",
+      "curation",
+      "discovery",
+      "catalogue"
+    ],
+    "notes": "The repository is close to this catalogue's mission but complementary rather than duplicative, making it a strong source for watchlist-style curation."
+  },
+  {
+    "name": "Madagascar Map API",
+    "url": "https://github.com/julkwel/madagascar-map-api",
+    "description": "PHP API layer built on top of Madagascar Map data for querying Malagasy territorial information.",
+    "category": "public-services",
+    "additional_categories": [
+      "delivery-addressing"
+    ],
+    "language": "PHP",
+    "framework": "PHP API",
+    "license": "unknown",
+    "status": "stable",
+    "maintainer": "julkwel",
+    "target_users": [
+      "developers",
+      "civic platforms",
+      "public institutions",
+      "delivery services"
+    ],
+    "madagascar_relevance": "The project exposes Madagascar administrative and locality data through an API layer, which is directly useful for civic, institutional, and logistics integrations.",
+    "tags": [
+      "madagascar",
+      "api",
+      "map",
+      "public-services",
+      "addressing"
+    ],
+    "notes": "A visible release and repository activity around January 2024 support a 'stable' status. License is marked 'unknown' because a reusable open source license could not be confidently verified from the repository metadata reviewed."
+  },
+  {
+    "name": "Zip Code Madagascar",
+    "url": "https://github.com/rasolofonirina/zip-code-madagascar",
+    "description": "Small JSON dataset of Madagascar postal codes for validation and address-oriented forms.",
+    "category": "delivery-addressing",
+    "additional_categories": [
+      "datasets"
+    ],
+    "language": "JSON",
+    "framework": null,
+    "license": "MIT",
+    "status": "inactive",
+    "maintainer": "rasolofonirina",
+    "target_users": [
+      "developers",
+      "form builders",
+      "delivery services",
+      "civic platforms"
+    ],
+    "madagascar_relevance": "The dataset is directly useful for Madagascar-specific address validation, lookup, and form completion workflows.",
+    "tags": [
+      "madagascar",
+      "zipcode",
+      "addressing",
+      "dataset",
+      "forms"
+    ],
+    "notes": "The repository is simple and immediately reusable. Its last visible code push was on 2022-05-24, so 'inactive' is safer than assuming active maintenance."
+  },
+  {
+    "name": "Botjagwar",
+    "url": "https://github.com/botjagwar/botjagwar",
+    "description": "Python automation scripts for Wiktionary workflows with direct relevance to Malagasy lexical infrastructure.",
+    "category": "language-ai",
+    "additional_categories": [
+      "culture-history"
+    ],
+    "language": "Python",
+    "framework": "Wiktionary automation scripts",
+    "license": "MIT",
+    "status": "active",
+    "maintainer": "botjagwar",
+    "target_users": [
+      "lexicographers",
+      "NLP builders",
+      "language preservation contributors",
+      "developers"
+    ],
+    "madagascar_relevance": "The project helps automate dictionary-oriented workflows around Malagasy lexical resources, which is directly valuable for local language tooling and knowledge preservation.",
+    "tags": [
+      "madagascar",
+      "malagasy",
+      "wiktionary",
+      "lexicography",
+      "automation"
+    ],
+    "notes": "Visible repository activity continued into late 2025, making 'active' appropriate for the catalogue."
+  },
+  {
+    "name": "Malagasy TTS",
+    "url": "https://github.com/elloza/malagasy-tts",
+    "description": "Browser-based Malagasy text-to-speech demo built with Transformers.js.",
+    "category": "language-ai",
+    "language": "HTML and JavaScript",
+    "framework": "Transformers.js",
+    "license": "MIT",
+    "status": "experimental",
+    "maintainer": "elloza",
+    "target_users": [
+      "AI builders",
+      "students",
+      "accessibility-focused developers",
+      "language technologists"
+    ],
+    "madagascar_relevance": "The project is a rare open experiment focused on Malagasy speech synthesis, which makes it strategically important for local language AI and accessibility work.",
+    "tags": [
+      "madagascar",
+      "malagasy",
+      "tts",
+      "speech",
+      "transformersjs"
+    ],
+    "notes": "The repository is promising but still small and prototype-like, so 'experimental' is the safest status despite recent visible activity."
+  },
+  {
+    "name": "Signaleo",
+    "url": "https://github.com/julkwel/signaleo",
+    "description": "Mobile application for sharing street, traffic, and carpooling information in Madagascar.",
+    "category": "mobility",
+    "additional_categories": [
+      "public-services",
+      "civic-tech"
+    ],
+    "language": "TypeScript",
+    "framework": "Ionic and Angular mobile app",
+    "license": "MIT",
+    "status": "inactive",
+    "maintainer": "julkwel",
+    "target_users": [
+      "drivers",
+      "commuters",
+      "civic-tech builders",
+      "local mobility startups"
+    ],
+    "madagascar_relevance": "The project is strongly localized around everyday mobility and congestion-sharing needs in Madagascar, which makes it a good fit for both mobility and civic-tech discovery.",
+    "tags": [
+      "madagascar",
+      "mobility",
+      "traffic",
+      "carpooling",
+      "civic-tech"
+    ],
+    "notes": "The repository remains valuable as a localized mobility reference, but its last visible code push was on 2023-11-12, so 'inactive' is the safest catalogue status."
+  },
+  {
+    "name": "Deforestation Maps Mada",
+    "url": "https://github.com/ghislainv/deforestation-maps-Mada",
+    "description": "Reproducible research repository documenting sixty years of deforestation and forest fragmentation in Madagascar.",
+    "category": "environment",
+    "additional_categories": [
+      "datasets"
+    ],
+    "language": "TeX, R, and GRASS GIS",
+    "framework": "Reproducible research workflow",
+    "license": "CC-BY-SA-4.0",
+    "status": "inactive",
+    "maintainer": "ghislainv",
+    "target_users": [
+      "researchers",
+      "conservation NGOs",
+      "environmental analysts",
+      "students"
+    ],
+    "madagascar_relevance": "The repository is directly centered on Madagascar forest change and provides reusable environmental analysis assets with clear local scientific value.",
+    "tags": [
+      "madagascar",
+      "deforestation",
+      "environment",
+      "research",
+      "gis"
+    ],
+    "notes": "The work is highly valuable and reproducible, but the last visible code push was on 2020-11-25, so 'inactive' is the safest status."
+  },
+  {
+    "name": "CNTEMAD Repository",
+    "url": "https://github.com/RajaRakoto/cntemad-repository",
+    "description": "Student-driven repository for CNTEMAD learners to share course materials, examples, and peer support resources.",
+    "category": "community",
+    "additional_categories": [
+      "education"
+    ],
+    "language": "JavaScript",
+    "framework": null,
+    "license": "GPL-3.0",
+    "status": "inactive",
+    "maintainer": "RajaRakoto",
+    "target_users": [
+      "students",
+      "peer mentors",
+      "self-learners",
+      "community contributors"
+    ],
+    "madagascar_relevance": "The repository is tightly linked to a visible Malagasy student community and supports practical local knowledge-sharing in higher education.",
+    "tags": [
+      "madagascar",
+      "education",
+      "community",
+      "students",
+      "peer-learning"
+    ],
+    "notes": "The project remains highly visible and useful, but it is best catalogued as 'inactive' because it is no longer actively maintained."
   }
 ]

@@ -13,10 +13,15 @@ $allCategories = @(
     "health",
     "agriculture",
     "public-services",
+    "mobility",
+    "civic-tech",
     "language-ai",
     "culture-history",
+    "meta-catalogue",
     "developer-tools",
     "datasets",
+    "environment",
+    "community",
     "offline-first",
     "security-identity"
 )
@@ -29,10 +34,15 @@ $categoryDisplayNames = @{
     "health" = "Health"
     "agriculture" = "Agriculture"
     "public-services" = "Public Services"
+    "mobility" = "Mobility"
+    "civic-tech" = "Civic Tech"
     "language-ai" = "Language and AI"
     "culture-history" = "Culture and History"
+    "meta-catalogue" = "Meta Catalogue"
     "developer-tools" = "Developer Tools"
     "datasets" = "Datasets"
+    "environment" = "Environment"
+    "community" = "Community"
     "offline-first" = "Offline-first"
     "security-identity" = "Security and Identity"
 }

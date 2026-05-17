@@ -40,13 +40,45 @@
           "health",
           "agriculture",
           "public-services",
+          "mobility",
+          "civic-tech",
           "language-ai",
           "culture-history",
+          "meta-catalogue",
           "developer-tools",
           "datasets",
+          "environment",
+          "community",
           "offline-first",
           "security-identity"
         ]
+      },
+      "additional_categories": {
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "enum": [
+            "payments",
+            "ecommerce",
+            "delivery-addressing",
+            "education",
+            "health",
+            "agriculture",
+            "public-services",
+            "mobility",
+            "civic-tech",
+            "language-ai",
+            "culture-history",
+            "meta-catalogue",
+            "developer-tools",
+            "datasets",
+            "environment",
+            "community",
+            "offline-first",
+            "security-identity"
+          ]
+        }
       },
       "language": {
         "type": "string",

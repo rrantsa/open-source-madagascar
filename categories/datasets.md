@@ -9,14 +9,14 @@ This category will list open source or openly reusable datasets relevant to Mada
 - Repository: https://github.com/julkwel/madagascar-map
 - Description: Open dataset repository listing Malagasy regions, districts, communes, towns, and fokontany, with JSON files intended for reuse in applications and APIs.
 - Category: datasets
+- Additional categories: delivery-addressing, public-services
 - Language: JSON
-- Framework: null
 - License: MIT
-- Status: unknown
+- Status: stable
 - Maintainer: julkwel
 - Target users: Developers, researchers, NGOs, public institutions
 - Madagascar relevance: The repository provides structured administrative and locality data for Madagascar, including regions, districts, communes, and fokontany, which is directly useful for local mapping, public-service, delivery, and civic applications.
-- Notes: The repository README describes the project as a list of Malagasy administrative divisions and localities, with possible API and geographic extensions. Status is marked `unknown` because current maintenance level was not confidently verified during manual review.
+- Notes: The repository provides a reusable territorial reference layer for Madagascar. A visible code push on 2024-01-08 supports a `stable` catalogue status even without signs of heavy ongoing feature work.
 
 ### PCG 2005
 
@@ -24,7 +24,6 @@ This category will list open source or openly reusable datasets relevant to Mada
 - Description: Structured data repository for the PCG 2005 chart of accounts used in Malagasy accounting.
 - Category: datasets
 - Language: JSON
-- Framework: null
 - License: unknown
 - Status: unknown
 - Maintainer: mamyraoby

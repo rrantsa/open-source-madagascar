@@ -41,11 +41,11 @@ The MVP does not yet include a full website, automated crawling, user accounts, 
 This section is generated from `data/repositories.json`.
 
 <!-- STATS:START -->
-- Total repositories: **8**
-- Categories represented: **5 / 13**
-- Repositories with known licenses: **6**
-- Repositories with unknown licenses: **2**
-- Repositories with unknown status: **4**
+- Total repositories: **16**
+- Categories represented: **10 / 18**
+- Repositories with known licenses: **13**
+- Repositories with unknown licenses: **3**
+- Repositories with unknown status: **3**
 
 ### By Category
 
@@ -53,15 +53,20 @@ This section is generated from `data/repositories.json`.
 |---|---|---:|
 | Payments | `payments` | 0 |
 | E-commerce | `ecommerce` | 0 |
-| Delivery and Addressing | `delivery-addressing` | 1 |
+| Delivery and Addressing | `delivery-addressing` | 2 |
 | Education | `education` | 1 |
 | Health | `health` | 0 |
 | Agriculture | `agriculture` | 0 |
-| Public Services | `public-services` | 0 |
-| Language and AI | `language-ai` | 3 |
+| Public Services | `public-services` | 1 |
+| Mobility | `mobility` | 1 |
+| Civic Tech | `civic-tech` | 0 |
+| Language and AI | `language-ai` | 5 |
 | Culture and History | `culture-history` | 0 |
+| Meta Catalogue | `meta-catalogue` | 1 |
 | Developer Tools | `developer-tools` | 1 |
 | Datasets | `datasets` | 2 |
+| Environment | `environment` | 1 |
+| Community | `community` | 1 |
 | Offline-first | `offline-first` | 0 |
 | Security and Identity | `security-identity` | 0 |
 
@@ -69,24 +74,28 @@ This section is generated from `data/repositories.json`.
 
 | Value | Count |
 |---|---:|
-| unknown | 4 |
-| experimental | 3 |
-| stable | 1 |
+| experimental | 4 |
+| inactive | 4 |
+| active | 3 |
+| unknown | 3 |
+| stable | 2 |
 
 ### By License
 
 | Value | Count |
 |---|---:|
-| MIT | 3 |
-| unknown | 2 |
+| MIT | 7 |
+| unknown | 3 |
+| GPL-3.0 | 2 |
 | BSD-3-Clause | 1 |
-| GPL-3.0 | 1 |
+| CC0-1.0 | 1 |
+| CC-BY-SA-4.0 | 1 |
 | MPL-2.0 | 1 |
 <!-- STATS:END -->
 
-## Planned Category Files
+## Category Files
 
-These category pages are part of the planned catalogue structure and will be populated as the repository grows.
+These category pages organize the catalogue by primary category while allowing related secondary categories in the machine-readable JSON data.
 
 - [Payments](categories/payments.md)
 - [E-commerce](categories/ecommerce.md)
@@ -95,10 +104,15 @@ These category pages are part of the planned catalogue structure and will be pop
 - [Health](categories/health.md)
 - [Agriculture](categories/agriculture.md)
 - [Public Services](categories/public-services.md)
+- [Mobility](categories/mobility.md)
+- [Civic Tech](categories/civic-tech.md)
 - [Language and AI](categories/language-ai.md)
 - [Culture and History](categories/culture-history.md)
+- [Meta Catalogue](categories/meta-catalogue.md)
 - [Developer Tools](categories/developer-tools.md)
 - [Datasets](categories/datasets.md)
+- [Environment](categories/environment.md)
+- [Community](categories/community.md)
 - [Offline-first](categories/offline-first.md)
 - [Security and Identity](categories/security-identity.md)
 
@@ -133,10 +147,15 @@ open-source-madagascar/
     health.md
     agriculture.md
     public-services.md
+    mobility.md
+    civic-tech.md
     language-ai.md
     culture-history.md
+    meta-catalogue.md
     developer-tools.md
     datasets.md
+    environment.md
+    community.md
     offline-first.md
     security-identity.md
 
@@ -177,8 +196,5 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 
 ## Current Status
 
-The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, and JSON-driven README stats are in place. The immediate priority is to expand the catalogue toward 10 and then 20 validated repositories while keeping metadata, relevance, and license clarity consistent.
-
-
-
+The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, and JSON-driven README stats are in place. The immediate priority is to expand the catalogue from 16 toward 20 validated repositories while keeping metadata, relevance, and license clarity consistent.
 
