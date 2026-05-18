@@ -502,5 +502,32 @@
       "dart"
     ],
     "notes": "The repository does not currently include a clear open source license file, and its public README remains a default Flutter starter README. The catalogue entry should be revisited if upstream documentation becomes more explicit."
+  },
+  {
+    "name": "Notebook App Flutter MVP",
+    "url": "https://github.com/rrantsa/notebook_app_flutter_mvp",
+    "description": "Flutter desktop notebook and photobook application that stores notes locally, attaches images, and exports printable PDF books.",
+    "category": "offline-first",
+    "language": "Dart",
+    "framework": "Flutter, SQLite, and PDF tooling",
+    "license": "MIT",
+    "status": "active",
+    "maintainer": "rrantsa",
+    "target_users": [
+      "personal users",
+      "families",
+      "students",
+      "small print studios"
+    ],
+    "madagascar_relevance": "The project uses a local-first workflow with on-device SQLite storage and offline PDF export, which suits low-connectivity environments and practical documentation needs in Madagascar.",
+    "tags": [
+      "madagascar",
+      "offline-first",
+      "flutter",
+      "local-first",
+      "notebook",
+      "pdf"
+    ],
+    "notes": "The README documents recent Windows releases up to v1.6.0, and the repository shows visible activity on 2026-04-08. The README also states MIT License, although a standalone LICENSE file was not present in the default branch during review."
   }
 ]

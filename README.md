@@ -41,9 +41,9 @@ The MVP does not yet include a full website, automated crawling, user accounts, 
 This section is generated from `data/repositories.json`.
 
 <!-- STATS:START -->
-- Total repositories: **18**
-- Categories represented: **13 / 18**
-- Repositories with known licenses: **14**
+- Total repositories: **19**
+- Categories represented: **14 / 18**
+- Repositories with known licenses: **15**
 - Repositories with unknown licenses: **4**
 - Repositories with unknown status: **3**
 
@@ -69,15 +69,15 @@ _Counts include both primary `category` values and secondary `additional_categor
 | Datasets | `datasets` | 4 |
 | Environment | `environment` | 1 |
 | Community | `community` | 1 |
-| Offline-first | `offline-first` | 0 |
+| Offline-first | `offline-first` | 1 |
 | Security and Identity | `security-identity` | 0 |
 
 ### By Status
 
 | Value | Count |
 |---|---:|
+| active | 5 |
 | inactive | 5 |
-| active | 4 |
 | experimental | 4 |
 | unknown | 3 |
 | stable | 2 |
@@ -86,7 +86,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 
 | Value | Count |
 |---|---:|
-| MIT | 8 |
+| MIT | 9 |
 | unknown | 4 |
 | GPL-3.0 | 2 |
 | BSD-3-Clause | 1 |
@@ -198,5 +198,6 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 
 ## Current Status
 
-The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, and JSON-driven README stats are in place. The immediate priority is to expand the catalogue from 18 toward 20 validated repositories while keeping metadata, relevance, and license clarity consistent.
+The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, and JSON-driven README stats are in place. The immediate priority is to expand the catalogue from 19 toward 20 validated repositories while keeping metadata, relevance, and license clarity consistent.
+
 
