@@ -29,7 +29,7 @@
     "github_repo": "sekoliko",
     "repository_path": "julkwel/sekoliko",
     "stars": 59,
-    "forks": 54,
+    "forks": 55,
     "last_updated": "2023-07-19T09:18:50Z"
   },
   {
@@ -662,5 +662,40 @@
     "stars": 0,
     "forks": 0,
     "last_updated": "2026-04-08T15:33:35Z"
+  },
+  {
+    "name": "Ny Baiboly DIEM v1.2",
+    "url": "https://github.com/dieudonne261/Ny-Baiboly-DIEM-v1.2",
+    "description": "Expo and React Native mobile Bible application for Malagasy readers with bundled offline scripture access on Android.",
+    "category": "offline-first",
+    "language": "TypeScript",
+    "framework": "Expo, React Native, and SQLite",
+    "license": "unknown",
+    "status": "active",
+    "maintainer": "dieudonne261",
+    "target_users": [
+      "Malagasy readers",
+      "church communities",
+      "students",
+      "offline mobile users"
+    ],
+    "madagascar_relevance": "The application is written for Malagasy readers and explicitly prioritizes offline access, which makes it a strong fit for low-connectivity mobile usage patterns common in Madagascar.",
+    "tags": [
+      "madagascar",
+      "malagasy",
+      "offline-first",
+      "bible",
+      "expo",
+      "react-native",
+      "sqlite"
+    ],
+    "notes": "The public repository shows recent visible activity on 2026-04-24 and includes a shipped APK plus SQLite-backed app code, so 'active' is reasonable. No reusable open source license file or license field was present during review, so the catalogue keeps the license as 'unknown'.",
+    "slug": "dieudonne261-ny-baiboly-diem-v1-2",
+    "github_owner": "dieudonne261",
+    "github_repo": "Ny-Baiboly-DIEM-v1.2",
+    "repository_path": "dieudonne261/Ny-Baiboly-DIEM-v1.2",
+    "stars": 4,
+    "forks": 1,
+    "last_updated": "2026-04-24T08:21:20Z"
   }
 ]
