@@ -100,12 +100,24 @@ Phase 6 status: Completed on 2026-05-16.
 ## Phase 7 - Automation and Future Work
 
 - [x] Generate README catalogue stats from `data/repositories.json`.
-- [ ] Add JSON validation.
+- [x] Add JSON validation.
 - [ ] Add broken-link checking.
-- [ ] Add GitHub Actions for validation workflows.
-- [ ] Add searchable website planning notes.
-- [ ] Plan filters by category, language, license, and status.
+- [x] Add GitHub Actions for validation workflows.
+- [x] Scaffold a GitHub Pages frontend under `website/`.
+- [x] Generate an enriched website data file from `data/repositories.json`.
+- [x] Add a homepage hero for Open Source Madagascar.
+- [x] Add an auto-scrolling featured-project carousel.
+- [x] Add category browsing for the website.
+- [x] Add a search bar for projects.
+- [x] Add default sorting by GitHub stars.
+- [x] Add a project detail view.
+- [x] Add a "Proposer un projet" CTA modal linking to the contribution flow.
+- [x] Add responsive mobile-first website UI.
+- [x] Add a GitHub Pages deployment workflow.
+- [ ] Add advanced filters by language, license, and status.
 - [ ] Plan future badges, scoring, and project maturity indicators.
+
+Phase 7 status: Website MVP, JSON validation, and GitHub Pages workflows added on 2026-05-18.
 
 ## MVP Exit Checklist
 

@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Open Source Madagascar Enriched Website Catalogue",
+  "description": "Generated repository entries for the GitHub Pages website, derived from data/repositories.json and cached GitHub metadata.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "name",
+      "url",
+      "description",
+      "category",
+      "language",
+      "license",
+      "status",
+      "madagascar_relevance",
+      "slug",
+      "github_owner",
+      "github_repo",
+      "repository_path",
+      "stars",
+      "forks",
+      "last_updated"
+    ],
+    "properties": {
+      "name": { "type": "string", "minLength": 1 },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://"
+      },
+      "description": { "type": "string", "minLength": 1 },
+      "category": {
+        "type": "string",
+        "enum": [
+          "payments",
+          "ecommerce",
+          "delivery-addressing",
+          "education",
+          "health",
+          "agriculture",
+          "public-services",
+          "mobility",
+          "civic-tech",
+          "language-ai",
+          "culture-history",
+          "meta-catalogue",
+          "developer-tools",
+          "datasets",
+          "environment",
+          "community",
+          "offline-first",
+          "security-identity"
+        ]
+      },
+      "additional_categories": {
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "enum": [
+            "payments",
+            "ecommerce",
+            "delivery-addressing",
+            "education",
+            "health",
+            "agriculture",
+            "public-services",
+            "mobility",
+            "civic-tech",
+            "language-ai",
+            "culture-history",
+            "meta-catalogue",
+            "developer-tools",
+            "datasets",
+            "environment",
+            "community",
+            "offline-first",
+            "security-identity"
+          ]
+        }
+      },
+      "language": { "type": "string", "minLength": 1 },
+      "framework": { "type": ["string", "null"] },
+      "license": { "type": "string", "minLength": 1 },
+      "status": {
+        "type": "string",
+        "enum": ["active", "experimental", "stable", "inactive", "archived", "unknown"]
+      },
+      "maintainer": { "type": ["string", "null"] },
+      "target_users": {
+        "type": "array",
+        "items": { "type": "string", "minLength": 1 }
+      },
+      "madagascar_relevance": { "type": "string", "minLength": 1 },
+      "tags": {
+        "type": "array",
+        "items": { "type": "string", "minLength": 1 }
+      },
+      "notes": { "type": ["string", "null"] },
+      "slug": { "type": "string", "minLength": 1 },
+      "github_owner": { "type": "string", "minLength": 1 },
+      "github_repo": { "type": "string", "minLength": 1 },
+      "repository_path": { "type": "string", "pattern": "^[^/]+/[^/]+$" },
+      "stars": { "type": "integer", "minimum": 0 },
+      "forks": { "type": "integer", "minimum": 0 },
+      "last_updated": {
+        "type": ["string", "null"],
+        "format": "date-time"
+      }
+    }
+  }
+}
