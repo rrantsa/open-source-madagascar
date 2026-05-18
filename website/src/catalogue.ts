@@ -4,21 +4,21 @@ export const CATEGORY_LABELS: Record<string, string> = {
   payments: "Paiements",
   ecommerce: "E-commerce",
   "delivery-addressing": "Livraison et adressage",
-  education: "Education",
-  health: "Sante",
+  education: "Éducation",
+  health: "Santé",
   agriculture: "Agriculture",
   "public-services": "Services publics",
-  mobility: "Mobilite",
+  mobility: "Mobilité",
   "civic-tech": "Civic tech",
   "language-ai": "Langue et IA",
   "culture-history": "Culture et histoire",
-  "meta-catalogue": "Meta-catalogue",
-  "developer-tools": "Outils developpeur",
-  datasets: "Donnees",
+  "meta-catalogue": "Méta-catalogue",
+  "developer-tools": "Outils développeur",
+  datasets: "Données",
   environment: "Environnement",
-  community: "Communaute",
+  community: "Communauté",
   "offline-first": "Offline-first",
-  "security-identity": "Securite et identite",
+  "security-identity": "Sécurité et identité",
 };
 
 export function formatNumber(value: number) {
@@ -38,10 +38,10 @@ export function formatDate(value: string | null) {
 export function statusLabel(status: Repository["status"]) {
   const labels: Record<Repository["status"], string> = {
     active: "Actif",
-    experimental: "Experimental",
+    experimental: "Expérimental",
     stable: "Stable",
     inactive: "Inactif",
-    archived: "Archive",
+    archived: "Archivé",
     unknown: "Inconnu",
   };
 

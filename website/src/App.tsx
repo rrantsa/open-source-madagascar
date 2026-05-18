@@ -55,7 +55,7 @@ function ProjectCard({
       <dl className="project-card__stats">
         <div>
           <dt>Maintainer</dt>
-          <dd>{project.maintainer ?? "Non renseigne"}</dd>
+          <dd>{project.maintainer ?? "Non renseigné"}</dd>
         </div>
         <div>
           <dt>Stars</dt>
@@ -76,7 +76,7 @@ function ProjectCard({
           Voir le repo
         </a>
         <a className="button" href={buildProjectHash(project.slug)}>
-          Details
+          Détails
         </a>
       </div>
     </article>
@@ -109,16 +109,16 @@ function ContributionModal({
         <p className="eyebrow">Contribuer</p>
         <h2 id="proposal-title">Proposer un projet</h2>
         <p>
-          Open Source Madagascar reference des projets utiles a Madagascar et reste ouvert aux
-          contributions de la communaute.
+          Open Source Madagascar référence des projets utiles à Madagascar et reste ouvert aux
+          contributions de la communauté.
         </p>
         <p>
-          Pour proposer un nouveau projet, vous pouvez ouvrir une Issue pour decrire la repository
-          ou soumettre directement une Pull Request dans le depot GitHub.
+          Pour proposer un nouveau projet, vous pouvez ouvrir une Issue pour décrire la repository
+          ou soumettre directement une Pull Request dans le dépôt GitHub.
         </p>
         <div className="modal__actions">
           <a className="button" href={PROJECT_PROPOSAL_URL} target="_blank" rel="noreferrer">
-            Creer une Issue
+            Créer une Issue
           </a>
           <a className="button button--ghost" href={PROJECT_PR_URL} target="_blank" rel="noreferrer">
             Ouvrir une Pull Request
@@ -145,11 +145,11 @@ function FeaturedCarousel({
       <div className="section-heading">
         <div>
           <p className="eyebrow">Showroom</p>
-          <h2>Des projets a decouvrir en continu</h2>
+          <h2>Des projets à découvrir en continu</h2>
         </div>
         <p>
-          Une selection visuelle qui fait defiler des projets du catalogue pour aider les visiteurs
-          a explorer sans connaitre l&apos;ecosysteme a l&apos;avance.
+          Une sélection visuelle qui fait défiler des projets du catalogue pour aider les visiteurs
+          à explorer sans connaître l&apos;écosystème à l&apos;avance.
         </p>
       </div>
 
@@ -164,7 +164,7 @@ function FeaturedCarousel({
               <p>{project.description}</p>
               <div className="featured-card__footer">
                 <span>{formatNumber(project.stars)} stars</span>
-                <span>{project.maintainer ?? "Communaute"}</span>
+                <span>{project.maintainer ?? "Communauté"}</span>
               </div>
             </a>
           ))}
@@ -217,10 +217,10 @@ function HomePage({
       <section className="hero">
         <div className="hero__content">
           <p className="eyebrow">GitHub Pages MVP</p>
-          <h1>Explorer les projets open source utiles a Madagascar</h1>
+          <h1>Explorer les projets open source utiles à Madagascar</h1>
           <p className="hero__lead">
-            Une vitrine simple pour les personnes non techniques, les etudiants, les associations
-            et les equipes qui veulent trouver des projets pertinents, comprendre leur objectif et
+            Une vitrine simple pour les personnes non techniques, les étudiants, les associations
+            et les équipes qui veulent trouver des projets pertinents, comprendre leur objectif et
             visiter leur repository GitHub.
           </p>
 
@@ -236,15 +236,15 @@ function HomePage({
 
         <div className="hero__panel">
           <div className="hero-stat">
-            <span>Projets indexes</span>
+            <span>Projets indexés</span>
             <strong>{formatNumber(projects.length)}</strong>
           </div>
           <div className="hero-stat">
-            <span>Categories visibles</span>
+            <span>Catégories visibles</span>
             <strong>{formatNumber(categories.length)}</strong>
           </div>
           <div className="hero-stat">
-            <span>Maintainers references</span>
+            <span>Maintainers référencés</span>
             <strong>{formatNumber(maintainerCount)}</strong>
           </div>
         </div>
@@ -255,10 +255,10 @@ function HomePage({
       <section className="category-section">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Categories</p>
+            <p className="eyebrow">Catégories</p>
             <h2>Parcourir par domaine</h2>
           </div>
-          <p>Chaque categorie ouvre un angle de lecture pour des besoins concrets en contexte malgache.</p>
+          <p>Chaque catégorie ouvre un angle de lecture pour des besoins concrets en contexte malgache.</p>
         </div>
 
         <div className="category-grid">
@@ -267,7 +267,7 @@ function HomePage({
             type="button"
             onClick={() => onCategorySelect("all")}
           >
-            <strong>Toutes les categories</strong>
+            <strong>Toutes les catégories</strong>
             <span>{formatNumber(projects.length)} projets</span>
           </button>
 
@@ -294,7 +294,7 @@ function HomePage({
             <h2>Trouver un projet</h2>
           </div>
           <p>
-            Les resultats sont tries par stars GitHub, puis par forks, pour mettre en avant les
+            Les résultats sont triés par stars GitHub, puis par forks, pour mettre en avant les
             projets les plus visibles.
           </p>
         </div>
@@ -306,7 +306,7 @@ function HomePage({
               id="project-search"
               type="search"
               value={searchTerm}
-              placeholder="Ex: education, Svelte, julkwel, data..."
+              placeholder="Ex : éducation, Svelte, julkwel, data..."
               onChange={(event) => onSearchChange(event.target.value)}
             />
           </label>
@@ -323,8 +323,8 @@ function HomePage({
 
         {filteredProjects.length === 0 ? (
           <div className="empty-state">
-            <h3>Aucun projet ne correspond a cette recherche.</h3>
-            <p>Essayez une autre categorie ou un mot-cle plus large.</p>
+            <h3>Aucun projet ne correspond à cette recherche.</h3>
+            <p>Essayez une autre catégorie ou un mot-clé plus large.</p>
           </div>
         ) : (
           <div className="project-grid">
@@ -370,7 +370,7 @@ function ProjectDetailPage({
         <dl className="detail-stats">
           <div>
             <dt>Maintainer</dt>
-            <dd>{project.maintainer ?? "Non renseigne"}</dd>
+            <dd>{project.maintainer ?? "Non renseigné"}</dd>
           </div>
           <div>
             <dt>Stars</dt>
@@ -381,7 +381,7 @@ function ProjectDetailPage({
             <dd>{formatNumber(project.forks)}</dd>
           </div>
           <div>
-            <dt>Derniere mise a jour</dt>
+            <dt>Dernière mise à jour</dt>
             <dd>{formatDate(project.last_updated)}</dd>
           </div>
           <div>
@@ -407,7 +407,7 @@ function ProjectDetailPage({
         </article>
 
         <article className="detail-card">
-          <h2>Categories</h2>
+          <h2>Catégories</h2>
           <div className="tag-row">
             {getProjectCategories(project).map((category) => (
               <span className="pill" key={category}>
@@ -426,7 +426,7 @@ function ProjectDetailPage({
             </div>
             <div>
               <strong>Framework</strong>
-              <span>{project.framework ?? "Non renseigne"}</span>
+              <span>{project.framework ?? "Non renseigné"}</span>
             </div>
             <div>
               <strong>Chemin GitHub</strong>
@@ -448,7 +448,7 @@ function ProjectDetailPage({
 
         <article className="detail-card">
           <h2>Notes de catalogue</h2>
-          <p>{project.notes ?? "Aucune note supplementaire pour le moment."}</p>
+          <p>{project.notes ?? "Aucune note supplémentaire pour le moment."}</p>
         </article>
       </div>
     </section>
@@ -539,14 +539,14 @@ export default function App() {
           <section className="status-panel">
             <p className="eyebrow">Chargement</p>
             <h1>Le catalogue est en train d&apos;arriver.</h1>
-            <p>Nous preparons la vitrine des projets indexes dans la base `repositories.json`.</p>
+            <p>Nous préparons la vitrine des projets indexés dans la base `repositories.json`.</p>
           </section>
         ) : null}
 
         {!isLoading && error ? (
           <section className="status-panel">
             <p className="eyebrow">Erreur</p>
-            <h1>Le catalogue n&apos;a pas pu etre charge.</h1>
+            <h1>Le catalogue n&apos;a pas pu être chargé.</h1>
             <p>{error}</p>
           </section>
         ) : null}
@@ -574,18 +574,18 @@ export default function App() {
           <section className="status-panel">
             <p className="eyebrow">Introuvable</p>
             <h1>Cette fiche projet n&apos;existe pas dans le catalogue.</h1>
-            <p>Le projet a peut-etre ete renomme, retire ou n&apos;est pas encore indexe.</p>
+            <p>Le projet a peut-être été renommé, retiré ou n&apos;est pas encore indexé.</p>
             <a className="button" href="#/">
-              Retour a l&apos;accueil
+              Retour à l&apos;accueil
             </a>
           </section>
         ) : null}
       </main>
 
       <footer className="site-footer">
-        <p>Open Source Madagascar aide a rendre les projets locaux plus visibles et plus reutilisables.</p>
+        <p>Open Source Madagascar aide à rendre les projets locaux plus visibles et plus réutilisables.</p>
         <a href="https://github.com/rrantsa/open-source-madagascar" target="_blank" rel="noreferrer">
-          Voir le depot principal
+          Voir le dépôt principal
         </a>
       </footer>
 
