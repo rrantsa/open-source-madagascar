@@ -18,7 +18,6 @@ You can contribute by:
 
 A project can be listed if it meets at least one of these conditions:
 
-- it was created by Malagasy developers;
 - it is directly useful for Madagascar;
 - it solves a local digitalization problem;
 - it supports Malagasy language, Malagasy data, or Malagasy institutions;

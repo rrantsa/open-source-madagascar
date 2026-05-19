@@ -18,7 +18,6 @@ export const CATEGORY_LABELS: Record<string, string> = {
   environment: "Environnement",
   community: "Communauté",
   "offline-first": "Offline-first",
-  "software-by-malagasy": "Logiciels de développeurs malgaches",
   "security-identity": "Sécurité et identité",
 };
 

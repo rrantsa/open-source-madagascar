@@ -4,7 +4,7 @@ Use or adapt this short message when inviting contributors to submit projects or
 
 ## Short Version
 
-We are building **Open Source Madagascar**, a curated repository of open source projects, datasets, tools, and starter kits created by Malagasy developers or useful for the Malagasy context.
+We are building **Open Source Madagascar**, a curated repository of open source projects, datasets, tools, and starter kits useful for the Malagasy context.
 
 If you know a project related to payments, education, delivery, public services, language AI, offline-first software, or other Madagascar-focused needs, we would love to include it.
 

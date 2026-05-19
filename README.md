@@ -1,6 +1,6 @@
 ﻿# Open Source Madagascar
 
-A curated list of open source projects, tools, datasets, libraries, standards, and starter kits created by Malagasy developers or useful for the Malagasy context.
+A curated list of open source projects, tools, datasets, libraries, standards, and starter kits useful for the Malagasy context.
 
 The goal of this repository is to make local digital solutions easier to discover, reuse, improve, and adapt. It starts as a catalogue and aims to grow into a shared digital commons for Madagascar.
 
@@ -42,7 +42,7 @@ This section is generated from `data/repositories.json`.
 
 <!-- STATS:START -->
 - Total repositories: **24**
-- Categories represented: **15 / 19**
+- Categories represented: **14 / 18**
 - Repositories with known licenses: **16**
 - Repositories with unknown licenses: **8**
 - Repositories with unknown status: **3**
@@ -69,8 +69,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 | Datasets | `datasets` | 6 |
 | Environment | `environment` | 1 |
 | Community | `community` | 2 |
-| Offline-first | `offline-first` | 2 |
-| Software by Malagasy Developers | `software-by-malagasy` | 1 |
+| Offline-first | `offline-first` | 3 |
 | Security and Identity | `security-identity` | 0 |
 
 ### By Status
@@ -117,7 +116,6 @@ These category pages organize the catalogue by primary category while allowing r
 - [Environment](categories/environment.md)
 - [Community](categories/community.md)
 - [Offline-first](categories/offline-first.md)
-- [Software by Malagasy Developers](categories/software-by-malagasy.md)
 - [Security and Identity](categories/security-identity.md)
 
 ## Contribution Entry Points
@@ -161,7 +159,6 @@ open-source-madagascar/
     environment.md
     community.md
     offline-first.md
-    software-by-malagasy.md
     security-identity.md
 
   data/
@@ -202,6 +199,8 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 ## Current Status
 
 The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, JSON-driven README stats, and the first 24 validated repositories are now in place. The immediate priority is to keep catalogue quality high while improving review depth, link checking, and website discovery features.
+
+
 
 
 

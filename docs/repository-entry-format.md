@@ -69,7 +69,6 @@ The category value in Markdown and JSON should match one of these slugs exactly:
 | `environment` | `categories/environment.md` |
 | `community` | `categories/community.md` |
 | `offline-first` | `categories/offline-first.md` |
-| `software-by-malagasy` | `categories/software-by-malagasy.md` |
 | `security-identity` | `categories/security-identity.md` |
 
 ## Primary And Additional Categories

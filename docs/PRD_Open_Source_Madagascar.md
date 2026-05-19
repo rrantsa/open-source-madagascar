@@ -12,7 +12,7 @@ Alternative names:
 
 ## 2. Product Summary
 
-**Open Source Madagascar** is a curated repository that lists, classifies, documents, and promotes open source projects created by Malagasy developers or useful for the Malagasy context.
+**Open Source Madagascar** is a curated repository that lists, classifies, documents, and promotes open source projects useful for the Malagasy context.
 
 The repository aims to become a central entry point for discovering reusable digital tools, libraries, datasets, standards, and starter kits that can help accelerate digitalization in Madagascar.
 
@@ -275,12 +275,11 @@ Example:
 
 A project can be listed if it meets at least one of the following criteria:
 
-1. It was created by Malagasy developers.
-2. It is directly useful for Madagascar.
-3. It solves a local digitalization problem.
-4. It supports Malagasy language, Malagasy data, or Malagasy institutions.
-5. It provides reusable code, data, templates, or documentation.
-6. It can help SMEs, communities, schools, NGOs, public services, or local developers.
+1. It is directly useful for Madagascar.
+2. It solves a local digitalization problem.
+3. It supports Malagasy language, Malagasy data, or Malagasy institutions.
+4. It provides reusable code, data, templates, or documentation.
+5. It can help SMEs, communities, schools, NGOs, public services, or local developers.
 
 The project should preferably have:
 
@@ -554,7 +553,7 @@ Contributors should be able to submit a project without complex tooling.
 ```md
 # Open Source Madagascar
 
-A curated list of open source projects, tools, datasets, libraries, and starter kits created by Malagasy developers or useful for the Malagasy context.
+A curated list of open source projects, tools, datasets, libraries, and starter kits useful for the Malagasy context.
 
 The goal of this repository is to make local digital solutions easier to discover, reuse, improve, and adapt.
 

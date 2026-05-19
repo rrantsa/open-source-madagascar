@@ -6,7 +6,6 @@ This document explains the baseline logic for deciding whether a project belongs
 
 A project can be listed if it meets at least one of these conditions:
 
-- it was created by Malagasy developers;
 - it is directly useful in Madagascar;
 - it addresses a Madagascar-specific digitalization problem;
 - it supports Malagasy language, Malagasy data, or Malagasy institutions;
@@ -29,14 +28,6 @@ Weak relevance examples:
 - a generic project with no clear local adaptation;
 - a repository that only happens to be used by one Malagasy developer with no Madagascar-specific purpose;
 - a broad software collection with no documented local applicability.
-
-## Creator-Provenance Exception
-
-Some repositories may still be acceptable even when their function is generic rather than Madagascar-specific.
-
-- A clearly reusable public project created by Malagasy developers can be listed when it adds meaningful visibility to the local builder ecosystem.
-- These projects should preferably be categorized under `software-by-malagasy` when creator provenance is the main reason for inclusion.
-- This should stay selective rather than becoming a catch-all for every generic repository with a Malagasy maintainer.
 
 ## Preferred Signals
 
