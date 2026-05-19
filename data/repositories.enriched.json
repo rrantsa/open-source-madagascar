@@ -65,7 +65,7 @@
     "github_owner": "julkwel",
     "github_repo": "madagascar-map",
     "repository_path": "julkwel/madagascar-map",
-    "stars": 65,
+    "stars": 66,
     "forks": 50,
     "last_updated": "2024-01-08T07:40:10Z"
   },
@@ -694,8 +694,122 @@
     "github_owner": "dieudonne261",
     "github_repo": "Ny-Baiboly-DIEM-v1.2",
     "repository_path": "dieudonne261/Ny-Baiboly-DIEM-v1.2",
-    "stars": 4,
+    "stars": 5,
     "forks": 1,
     "last_updated": "2026-04-24T08:21:20Z"
+  },
+  {
+    "name": "Madagascar Is Not Only a Movie",
+    "url": "https://github.com/nralibera/madagascar_is_not_only_a_movie",
+    "description": "Interactive map project for exploring Madagascar through reusable geographic datasets, town locations, points of interest, and comparative visualizations.",
+    "category": "datasets",
+    "additional_categories": [
+      "delivery-addressing"
+    ],
+    "language": "JavaScript, GeoJSON, and CSV",
+    "framework": "D3.js interactive maps",
+    "license": "unknown",
+    "status": "inactive",
+    "maintainer": "nralibera",
+    "target_users": [
+      "developers",
+      "students",
+      "researchers",
+      "map builders"
+    ],
+    "madagascar_relevance": "The repository packages Madagascar-focused geographic and locality data together with interactive maps, making it directly useful for local mapping, education, and place-oriented application building.",
+    "tags": [
+      "madagascar",
+      "datasets",
+      "maps",
+      "geojson",
+      "towns",
+      "points-of-interest",
+      "d3"
+    ],
+    "notes": "The repository includes reusable data under `Data/`, including geolocated towns, points of interest, food prices, and boundary assets, alongside a D3-based interface. No reusable license file was present during review, so the license is catalogued as 'unknown'. The last visible code push was on 2024-02-12, so 'inactive' is the safest status.",
+    "slug": "nralibera-madagascar-is-not-only-a-movie",
+    "github_owner": "nralibera",
+    "github_repo": "madagascar_is_not_only_a_movie",
+    "repository_path": "nralibera/madagascar_is_not_only_a_movie",
+    "stars": 5,
+    "forks": 2,
+    "last_updated": "2024-08-16T11:39:55Z"
+  },
+  {
+    "name": "BetaX Community",
+    "url": "https://github.com/puchka/BetaX-Community",
+    "description": "Scripts and generated route assets for reconstructing bus paths in the urban area of Antananarivo from waypoint data.",
+    "category": "mobility",
+    "additional_categories": [
+      "datasets"
+    ],
+    "language": "Python and HTML",
+    "framework": "Google Maps waypoint and directions workflow",
+    "license": "unknown",
+    "status": "inactive",
+    "maintainer": "puchka",
+    "target_users": [
+      "commuters",
+      "mobility researchers",
+      "mapping builders",
+      "civic-tech contributors"
+    ],
+    "madagascar_relevance": "The repository is centered on Antananarivo bus routes and provides reusable route-generation artifacts for a concrete local mobility problem.",
+    "tags": [
+      "madagascar",
+      "antananarivo",
+      "mobility",
+      "bus-routes",
+      "waypoints",
+      "mapping",
+      "python"
+    ],
+    "notes": "The repository includes waypoint inputs, generated route outputs, and small helper scripts for mapping bus trajectories. No reusable license file was present during review, so the license is catalogued as 'unknown'. The last visible code push was on 2017-05-01, so 'inactive' is the safest status.",
+    "slug": "puchka-betax-community",
+    "github_owner": "puchka",
+    "github_repo": "BetaX-Community",
+    "repository_path": "puchka/BetaX-Community",
+    "stars": 9,
+    "forks": 4,
+    "last_updated": "2017-05-01T13:14:05Z"
+  },
+  {
+    "name": "Top Madagascar GitHub Users",
+    "url": "https://github.com/tsirysndr/top-mg-github-users",
+    "description": "Small web directory highlighting GitHub users in Madagascar and selected Malagasy cities based on public contribution data.",
+    "category": "meta-catalogue",
+    "additional_categories": [
+      "community"
+    ],
+    "language": "TypeScript",
+    "framework": "React and Vite",
+    "license": "unknown",
+    "status": "inactive",
+    "maintainer": "tsirysndr",
+    "target_users": [
+      "developers",
+      "students",
+      "recruiters",
+      "ecosystem mappers"
+    ],
+    "madagascar_relevance": "The project supports ecosystem discovery by making Malagasy GitHub contributors easier to find, which helps collaboration, visibility, and community mapping.",
+    "tags": [
+      "madagascar",
+      "github",
+      "community",
+      "directory",
+      "meta-catalogue",
+      "typescript",
+      "react"
+    ],
+    "notes": "The repository includes a working React-based directory and is clearly aligned with ecosystem discovery, but no reusable license file was present during review. The README still contains leftover Vite template text, and the last visible code push was on 2023-12-03, so 'inactive' is the safest status.",
+    "slug": "tsirysndr-top-mg-github-users",
+    "github_owner": "tsirysndr",
+    "github_repo": "top-mg-github-users",
+    "repository_path": "tsirysndr/top-mg-github-users",
+    "stars": 6,
+    "forks": 0,
+    "last_updated": "2023-12-03T16:13:14Z"
   }
 ]

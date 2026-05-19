@@ -30,3 +30,18 @@ This category will list open source or openly reusable datasets relevant to Mada
 - Target users: Developers, accountants, SMEs, finance software builders
 - Madagascar relevance: The repository contains structured data for the Madagascar PCG 2005 accounting framework, which is directly relevant for local accounting, bookkeeping, ERP, and financial software.
 - Notes: The repository README describes the project as structured PCG 2005 data for Madagascar. License is marked `unknown` because a reusable license could not be confidently verified from the repository page reviewed. Status is marked `unknown` because current maintenance level was not confidently verified during manual review.
+
+### Madagascar Is Not Only a Movie
+
+- Repository: https://github.com/nralibera/madagascar_is_not_only_a_movie
+- Description: Interactive map project for exploring Madagascar through reusable geographic datasets, town locations, points of interest, and comparative visualizations.
+- Category: datasets
+- Additional categories: delivery-addressing
+- Language: JavaScript, GeoJSON, and CSV
+- Framework: D3.js interactive maps
+- License: unknown
+- Status: inactive
+- Maintainer: nralibera
+- Target users: Developers, students, researchers, map builders
+- Madagascar relevance: The repository packages Madagascar-focused geographic and locality data together with interactive maps, making it directly useful for local mapping, education, and place-oriented application building.
+- Notes: The repository includes reusable data under `Data/`, including geolocated towns, points of interest, food prices, and boundary assets, alongside a D3-based interface. No reusable license file was present during review, so the license is catalogued as `unknown`. The last visible code push was on 2024-02-12, so `inactive` is the safest status.

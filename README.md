@@ -41,10 +41,10 @@ The MVP does not yet include a full website, automated crawling, user accounts, 
 This section is generated from `data/repositories.json`.
 
 <!-- STATS:START -->
-- Total repositories: **20**
+- Total repositories: **23**
 - Categories represented: **14 / 18**
 - Repositories with known licenses: **15**
-- Repositories with unknown licenses: **5**
+- Repositories with unknown licenses: **8**
 - Repositories with unknown status: **3**
 
 ### By Category
@@ -55,20 +55,20 @@ _Counts include both primary `category` values and secondary `additional_categor
 |---|---|---:|
 | Payments | `payments` | 0 |
 | E-commerce | `ecommerce` | 0 |
-| Delivery and Addressing | `delivery-addressing` | 4 |
+| Delivery and Addressing | `delivery-addressing` | 5 |
 | Education | `education` | 2 |
 | Health | `health` | 0 |
 | Agriculture | `agriculture` | 1 |
 | Public Services | `public-services` | 3 |
-| Mobility | `mobility` | 1 |
+| Mobility | `mobility` | 2 |
 | Civic Tech | `civic-tech` | 1 |
 | Language and AI | `language-ai` | 6 |
 | Culture and History | `culture-history` | 2 |
-| Meta Catalogue | `meta-catalogue` | 1 |
+| Meta Catalogue | `meta-catalogue` | 2 |
 | Developer Tools | `developer-tools` | 3 |
-| Datasets | `datasets` | 4 |
+| Datasets | `datasets` | 6 |
 | Environment | `environment` | 1 |
-| Community | `community` | 1 |
+| Community | `community` | 2 |
 | Offline-first | `offline-first` | 2 |
 | Security and Identity | `security-identity` | 0 |
 
@@ -76,8 +76,8 @@ _Counts include both primary `category` values and secondary `additional_categor
 
 | Value | Count |
 |---|---:|
+| inactive | 8 |
 | active | 6 |
-| inactive | 5 |
 | experimental | 4 |
 | unknown | 3 |
 | stable | 2 |
@@ -87,7 +87,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 | Value | Count |
 |---|---:|
 | MIT | 9 |
-| unknown | 5 |
+| unknown | 8 |
 | GPL-3.0 | 2 |
 | BSD-3-Clause | 1 |
 | CC0-1.0 | 1 |
@@ -198,7 +198,9 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 
 ## Current Status
 
-The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, JSON-driven README stats, and the first 20 validated repositories are now in place. The immediate priority is to keep catalogue quality high while improving review depth, link checking, and website discovery features.
+The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, JSON-driven README stats, and the first 23 validated repositories are now in place. The immediate priority is to keep catalogue quality high while improving review depth, link checking, and website discovery features.
+
+
 
 
 
