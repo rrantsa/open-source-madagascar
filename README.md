@@ -4,6 +4,12 @@ A curated list of open source projects, tools, datasets, libraries, standards, a
 
 The goal of this repository is to make local digital solutions easier to discover, reuse, improve, and adapt. It starts as a catalogue and aims to grow into a shared digital commons for Madagascar.
 
+## Explore The Catalogue
+
+The project now has a GitHub Pages site for browsing the catalogue visually.
+
+**Explore the live catalogue:** [rrantsa.github.io/open-source-madagascar](https://rrantsa.github.io/open-source-madagascar/)
+
 ## Why This Repository Exists
 
 Madagascar has specific digitalization needs in payments, delivery, address management, education, public services, language technology, business management, and offline-first applications. Many useful solutions already exist, but they are often scattered across repositories, organizations, and personal profiles.
@@ -28,22 +34,23 @@ This repository creates a central entry point for:
 The MVP of this repository is a structured GitHub catalogue with:
 
 - a readable main README;
+- a public GitHub Pages website for visualizing the catalogue data;
 - category-based project lists;
 - contribution guidelines;
 - a project submission format;
 - project classification and review rules;
 - machine-readable repository data for future reuse.
 
-The MVP does not yet include a full website, automated crawling, user accounts, or project scoring.
+The MVP does not yet include automated crawling, user accounts, or project scoring.
 
 ## Catalogue Stats
 
 This section is generated from `data/repositories.json`.
 
 <!-- STATS:START -->
-- Total repositories: **24**
+- Total repositories: **25**
 - Categories represented: **14 / 18**
-- Repositories with known licenses: **16**
+- Repositories with known licenses: **17**
 - Repositories with unknown licenses: **8**
 - Repositories with unknown status: **3**
 
@@ -64,11 +71,11 @@ _Counts include both primary `category` values and secondary `additional_categor
 | Civic Tech | `civic-tech` | 1 |
 | Language and AI | `language-ai` | 6 |
 | Culture and History | `culture-history` | 2 |
-| Meta Catalogue | `meta-catalogue` | 2 |
+| Meta Catalogue | `meta-catalogue` | 3 |
 | Developer Tools | `developer-tools` | 3 |
 | Datasets | `datasets` | 6 |
 | Environment | `environment` | 1 |
-| Community | `community` | 2 |
+| Community | `community` | 3 |
 | Offline-first | `offline-first` | 3 |
 | Security and Identity | `security-identity` | 0 |
 
@@ -78,7 +85,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 |---|---:|
 | inactive | 8 |
 | active | 6 |
-| experimental | 5 |
+| experimental | 6 |
 | unknown | 3 |
 | stable | 2 |
 
@@ -88,9 +95,9 @@ _Counts include both primary `category` values and secondary `additional_categor
 |---|---:|
 | MIT | 10 |
 | unknown | 8 |
+| CC0-1.0 | 2 |
 | GPL-3.0 | 2 |
 | BSD-3-Clause | 1 |
-| CC0-1.0 | 1 |
 | CC-BY-SA-4.0 | 1 |
 | MPL-2.0 | 1 |
 <!-- STATS:END -->
@@ -198,9 +205,7 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 
 ## Current Status
 
-The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, JSON-driven README stats, and the first 24 validated repositories are now in place. The immediate priority is to keep catalogue quality high while improving review depth, link checking, and website discovery features.
-
-
+The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, JSON-driven README stats, and the first 25 validated repositories are now in place. The immediate priority is to keep catalogue quality high while improving review depth, link checking, and website discovery features.
 
 
 

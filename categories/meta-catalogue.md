@@ -33,3 +33,18 @@ This category lists catalogue, discovery, and curation resources that help peopl
 - Target users: Developers, students, recruiters, ecosystem mappers
 - Madagascar relevance: The project supports ecosystem discovery by making Malagasy GitHub contributors easier to find, which helps collaboration, visibility, and community mapping.
 - Notes: The repository includes a working React-based directory and is clearly aligned with ecosystem discovery, but no reusable license file was present during review. The README still contains leftover Vite template text, and the last visible code push was on 2023-12-03, so `inactive` is the safest status.
+
+### OpenMada
+
+- Repository: https://github.com/BlueTech-team/OpenMada
+- Description: Collaborative JSON directory of projects contributing to Madagascar's digitalization, with a linked interactive map for ecosystem discovery.
+- Category: meta-catalogue
+- Additional categories: community
+- Language: JSON and Markdown
+- Framework: Collaborative JSON catalogue with linked interactive map
+- License: CC0-1.0
+- Status: experimental
+- Maintainer: BlueTech-team
+- Target users: Developers, students, community curators, ecosystem mappers
+- Madagascar relevance: The repository is explicitly dedicated to listing Madagascar-related digital projects and helping the community discover, extend, and curate the local open source ecosystem.
+- Notes: The public repository was created on 2026-05-17 and currently centers on a small `projects.json` catalogue plus README guidance, so `experimental` is the safest status even though the repository already links to a live interactive map.

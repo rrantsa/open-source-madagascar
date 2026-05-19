@@ -679,5 +679,36 @@
       "desktop-app"
     ],
     "notes": "The README clearly documents the app, build flow, and MIT license, but the repository appears to be an early single-repository app with a first visible commit on 2026-04-17, so 'experimental' is the safest status. A standalone 'LICENSE' file was not present during review even though the README explicitly states MIT."
+  },
+  {
+    "name": "OpenMada",
+    "url": "https://github.com/BlueTech-team/OpenMada",
+    "description": "Collaborative JSON directory of projects contributing to Madagascar's digitalization, with a linked interactive map for ecosystem discovery.",
+    "category": "meta-catalogue",
+    "additional_categories": [
+      "community"
+    ],
+    "language": "JSON and Markdown",
+    "framework": "Collaborative JSON catalogue with linked interactive map",
+    "license": "CC0-1.0",
+    "status": "experimental",
+    "maintainer": "BlueTech-team",
+    "target_users": [
+      "developers",
+      "students",
+      "community curators",
+      "ecosystem mappers"
+    ],
+    "madagascar_relevance": "The repository is explicitly dedicated to listing Madagascar-related digital projects and helping the community discover, extend, and curate the local open source ecosystem.",
+    "tags": [
+      "madagascar",
+      "meta-catalogue",
+      "community",
+      "directory",
+      "json",
+      "curation",
+      "discovery"
+    ],
+    "notes": "The public repository was created on 2026-05-17 and currently centers on a small 'projects.json' catalogue plus README guidance, so 'experimental' is the safest status even though the repository already links to a live interactive map."
   }
 ]
