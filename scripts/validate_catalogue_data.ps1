@@ -145,6 +145,7 @@ $allowedCategories = @(
     "environment",
     "community",
     "offline-first",
+    "software-by-malagasy",
     "security-identity"
 )
 

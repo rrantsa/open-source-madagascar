@@ -32,6 +32,7 @@ This document defines a practical starter label set for triaging submissions and
 | `category/developer-tools` | Developer tooling and reusable libraries |
 | `category/datasets` | Datasets and open data resources |
 | `category/offline-first` | Offline and low-connectivity tools |
+| `category/software-by-malagasy` | General-purpose software created by Malagasy developers |
 | `category/security-identity` | Identity, consent, and security-related work |
 
 ## Suggested Usage

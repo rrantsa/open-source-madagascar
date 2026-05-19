@@ -23,6 +23,7 @@ $allCategories = @(
     "environment",
     "community",
     "offline-first",
+    "software-by-malagasy",
     "security-identity"
 )
 
@@ -44,6 +45,7 @@ $categoryDisplayNames = @{
     "environment" = "Environment"
     "community" = "Community"
     "offline-first" = "Offline-first"
+    "software-by-malagasy" = "Software by Malagasy Developers"
     "security-identity" = "Security and Identity"
 }
 

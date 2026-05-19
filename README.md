@@ -41,9 +41,9 @@ The MVP does not yet include a full website, automated crawling, user accounts, 
 This section is generated from `data/repositories.json`.
 
 <!-- STATS:START -->
-- Total repositories: **23**
-- Categories represented: **14 / 18**
-- Repositories with known licenses: **15**
+- Total repositories: **24**
+- Categories represented: **15 / 19**
+- Repositories with known licenses: **16**
 - Repositories with unknown licenses: **8**
 - Repositories with unknown status: **3**
 
@@ -70,6 +70,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 | Environment | `environment` | 1 |
 | Community | `community` | 2 |
 | Offline-first | `offline-first` | 2 |
+| Software by Malagasy Developers | `software-by-malagasy` | 1 |
 | Security and Identity | `security-identity` | 0 |
 
 ### By Status
@@ -78,7 +79,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 |---|---:|
 | inactive | 8 |
 | active | 6 |
-| experimental | 4 |
+| experimental | 5 |
 | unknown | 3 |
 | stable | 2 |
 
@@ -86,7 +87,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 
 | Value | Count |
 |---|---:|
-| MIT | 9 |
+| MIT | 10 |
 | unknown | 8 |
 | GPL-3.0 | 2 |
 | BSD-3-Clause | 1 |
@@ -116,6 +117,7 @@ These category pages organize the catalogue by primary category while allowing r
 - [Environment](categories/environment.md)
 - [Community](categories/community.md)
 - [Offline-first](categories/offline-first.md)
+- [Software by Malagasy Developers](categories/software-by-malagasy.md)
 - [Security and Identity](categories/security-identity.md)
 
 ## Contribution Entry Points
@@ -159,6 +161,7 @@ open-source-madagascar/
     environment.md
     community.md
     offline-first.md
+    software-by-malagasy.md
     security-identity.md
 
   data/
@@ -198,7 +201,9 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 
 ## Current Status
 
-The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, JSON-driven README stats, and the first 23 validated repositories are now in place. The immediate priority is to keep catalogue quality high while improving review depth, link checking, and website discovery features.
+The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, JSON-driven README stats, and the first 24 validated repositories are now in place. The immediate priority is to keep catalogue quality high while improving review depth, link checking, and website discovery features.
+
+
 
 
 

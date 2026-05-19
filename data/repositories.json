@@ -650,5 +650,34 @@
       "react"
     ],
     "notes": "The repository includes a working React-based directory and is clearly aligned with ecosystem discovery, but no reusable license file was present during review. The README still contains leftover Vite template text, and the last visible code push was on 2023-12-03, so 'inactive' is the safest status."
+  },
+  {
+    "name": "YT Downloader",
+    "url": "https://github.com/JulienPrince/youtube-dowloader-for-macbook",
+    "description": "Minimal macOS desktop application for downloading YouTube videos and audio through yt-dlp and ffmpeg.",
+    "category": "software-by-malagasy",
+    "language": "Swift",
+    "framework": "SwiftUI macOS app using yt-dlp and ffmpeg",
+    "license": "MIT",
+    "status": "experimental",
+    "maintainer": "JulienPrince",
+    "target_users": [
+      "macOS users",
+      "personal users",
+      "students",
+      "creators"
+    ],
+    "madagascar_relevance": "The repository was created by a Malagasy developer and represents a reusable piece of end-user desktop software from the local builder ecosystem, which broadens catalogue visibility beyond Madagascar-specific sector tools.",
+    "tags": [
+      "madagascar",
+      "software-by-malagasy",
+      "macos",
+      "swift",
+      "swiftui",
+      "yt-dlp",
+      "ffmpeg",
+      "desktop-app"
+    ],
+    "notes": "The README clearly documents the app, build flow, and MIT license, but the repository appears to be an early single-repository app with a first visible commit on 2026-04-17, so 'experimental' is the safest status. A standalone 'LICENSE' file was not present during review even though the README explicitly states MIT."
   }
 ]

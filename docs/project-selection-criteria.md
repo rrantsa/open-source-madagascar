@@ -30,6 +30,14 @@ Weak relevance examples:
 - a repository that only happens to be used by one Malagasy developer with no Madagascar-specific purpose;
 - a broad software collection with no documented local applicability.
 
+## Creator-Provenance Exception
+
+Some repositories may still be acceptable even when their function is generic rather than Madagascar-specific.
+
+- A clearly reusable public project created by Malagasy developers can be listed when it adds meaningful visibility to the local builder ecosystem.
+- These projects should preferably be categorized under `software-by-malagasy` when creator provenance is the main reason for inclusion.
+- This should stay selective rather than becoming a catch-all for every generic repository with a Malagasy maintainer.
+
 ## Preferred Signals
 
 Projects are easier to accept when they also have:
