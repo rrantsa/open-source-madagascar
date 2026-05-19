@@ -472,6 +472,7 @@ export default function App() {
       try {
         setLoading(true);
         const response = await fetch(`${import.meta.env.BASE_URL}data/repositories.enriched.json`, {
+          cache: "no-store",
           signal: controller.signal,
         });
 
