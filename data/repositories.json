@@ -710,5 +710,32 @@
       "discovery"
     ],
     "notes": "The public repository was created on 2026-05-17 and currently centers on a small 'projects.json' catalogue plus README guidance, so 'experimental' is the safest status even though the repository already links to a live interactive map."
+  },
+  {
+    "name": "VeriSphere",
+    "url": "https://github.com/Hernat/VeriSphere",
+    "description": "Android floating bubble app that verifies social-media posts through Gemini in one long-press and expands into a source-backed detail panel.",
+    "category": "civic-tech",
+    "language": "Kotlin",
+    "framework": "Android, Jetpack Compose, and Gemini API",
+    "license": "MIT",
+    "status": "experimental",
+    "maintainer": "Hernat",
+    "target_users": [
+      "Android users",
+      "journalists",
+      "students",
+      "civic-tech contributors"
+    ],
+    "madagascar_relevance": "An Android-first fact-checking tool can help Malagasy users, journalists, and community organizations assess viral social-media claims more quickly in a mobile-first information environment.",
+    "tags": [
+      "madagascar",
+      "civic-tech",
+      "fact-checking",
+      "android",
+      "kotlin",
+      "gemini"
+    ],
+    "notes": "The repository has a clear MIT license and visible activity on 2026-05-20. The README explicitly labels the app as a pre-V1 alpha at version 0.1.0, with no signed APK published yet, so 'experimental' is the safest catalogue status."
   }
 ]

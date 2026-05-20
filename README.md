@@ -1,5 +1,4 @@
 ﻿# Open Source Madagascar
-
 A curated list of open source projects, tools, datasets, libraries, standards, and starter kits useful for the Malagasy context.
 
 The goal of this repository is to make local digital solutions easier to discover, reuse, improve, and adapt. It starts as a catalogue and aims to grow into a shared digital commons for Madagascar.
@@ -48,9 +47,9 @@ The MVP does not yet include automated crawling, user accounts, or project scori
 This section is generated from `data/repositories.json`.
 
 <!-- STATS:START -->
-- Total repositories: **25**
+- Total repositories: **26**
 - Categories represented: **14 / 18**
-- Repositories with known licenses: **17**
+- Repositories with known licenses: **18**
 - Repositories with unknown licenses: **8**
 - Repositories with unknown status: **3**
 
@@ -68,7 +67,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 | Agriculture | `agriculture` | 1 |
 | Public Services | `public-services` | 3 |
 | Mobility | `mobility` | 2 |
-| Civic Tech | `civic-tech` | 1 |
+| Civic Tech | `civic-tech` | 2 |
 | Language and AI | `language-ai` | 6 |
 | Culture and History | `culture-history` | 2 |
 | Meta Catalogue | `meta-catalogue` | 3 |
@@ -84,8 +83,8 @@ _Counts include both primary `category` values and secondary `additional_categor
 | Value | Count |
 |---|---:|
 | inactive | 8 |
+| experimental | 7 |
 | active | 6 |
-| experimental | 6 |
 | unknown | 3 |
 | stable | 2 |
 
@@ -93,7 +92,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 
 | Value | Count |
 |---|---:|
-| MIT | 10 |
+| MIT | 11 |
 | unknown | 8 |
 | CC0-1.0 | 2 |
 | GPL-3.0 | 2 |
@@ -206,6 +205,8 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 ## Current Status
 
 The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, JSON-driven README stats, and the first 25 validated repositories are now in place. The immediate priority is to keep catalogue quality high while improving review depth, link checking, and website discovery features.
+
+
 
 
 
