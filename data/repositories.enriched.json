@@ -919,5 +919,40 @@
     "stars": 4,
     "forks": 0,
     "last_updated": "2026-05-20T12:47:37Z"
+  },
+  {
+    "name": "Voragg CLI",
+    "url": "https://github.com/laza-niaina/voragg-cli",
+    "description": "Node.js command-line tool for downloading anime episodes with resumable transfers, retry logic, and configurable concurrent downloads.",
+    "category": "offline-first",
+    "language": "JavaScript",
+    "framework": "Node.js CLI using Commander, Axios, and Cheerio",
+    "license": "MIT",
+    "status": "experimental",
+    "maintainer": "laza-niaina",
+    "target_users": [
+      "CLI users",
+      "anime fans",
+      "personal users",
+      "offline media downloaders"
+    ],
+    "madagascar_relevance": "Resumable downloads and later offline viewing fit low-connectivity usage patterns in Madagascar, where users often need to save media while connected and watch it afterward without a stable connection.",
+    "tags": [
+      "madagascar",
+      "offline-first",
+      "cli",
+      "javascript",
+      "nodejs",
+      "downloads",
+      "media"
+    ],
+    "notes": "The public repository includes a clear MIT license and a README updated on 2026-05-29 with installation, usage, and supported-player details. The project is already usable, but its recent initial release posture and narrow single-purpose scope make 'experimental' the safest catalogue status.",
+    "slug": "laza-niaina-voragg-cli",
+    "github_owner": "laza-niaina",
+    "github_repo": "voragg-cli",
+    "repository_path": "laza-niaina/voragg-cli",
+    "stars": 0,
+    "forks": 0,
+    "last_updated": null
   }
 ]

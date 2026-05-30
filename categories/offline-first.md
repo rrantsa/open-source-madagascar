@@ -43,3 +43,17 @@ This category will list open source projects focused on synchronization, local s
 - Target users: macOS users, personal users, students, creators
 - Madagascar relevance: Downloading videos and audio for later viewing fits low-connectivity usage in Madagascar, where people often need to save content while connected and watch it offline later.
 - Notes: The README clearly documents the app, build flow, and MIT license, but the repository appears to be an early single-repository app with a first visible commit on 2026-04-17, so `experimental` is the safest status. A standalone `LICENSE` file was not present during review even though the README explicitly states MIT.
+
+### Voragg CLI
+
+- Repository: https://github.com/laza-niaina/voragg-cli
+- Description: Node.js command-line tool for downloading anime episodes with resumable transfers, retry logic, and configurable concurrent downloads.
+- Category: offline-first
+- Language: JavaScript
+- Framework: Node.js CLI using Commander, Axios, and Cheerio
+- License: MIT
+- Status: experimental
+- Maintainer: laza-niaina
+- Target users: CLI users, anime fans, personal users, offline media downloaders
+- Madagascar relevance: Resumable downloads and later offline viewing fit low-connectivity usage patterns in Madagascar, where users often need to save media while connected and watch it afterward without a stable connection.
+- Notes: The public repository includes a clear MIT license and a README updated on 2026-05-29 with installation, usage, and supported-player details. The project is already usable, but its recent initial release posture and narrow single-purpose scope make `experimental` the safest catalogue status.

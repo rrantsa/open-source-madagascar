@@ -47,9 +47,9 @@ The MVP does not yet include automated crawling, user accounts, or project scori
 This section is generated from `data/repositories.json`.
 
 <!-- STATS:START -->
-- Total repositories: **26**
+- Total repositories: **27**
 - Categories represented: **14 / 18**
-- Repositories with known licenses: **18**
+- Repositories with known licenses: **19**
 - Repositories with unknown licenses: **8**
 - Repositories with unknown status: **3**
 
@@ -75,15 +75,15 @@ _Counts include both primary `category` values and secondary `additional_categor
 | Datasets | `datasets` | 6 |
 | Environment | `environment` | 1 |
 | Community | `community` | 3 |
-| Offline-first | `offline-first` | 3 |
+| Offline-first | `offline-first` | 4 |
 | Security and Identity | `security-identity` | 0 |
 
 ### By Status
 
 | Value | Count |
 |---|---:|
+| experimental | 8 |
 | inactive | 8 |
-| experimental | 7 |
 | active | 6 |
 | unknown | 3 |
 | stable | 2 |
@@ -92,7 +92,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 
 | Value | Count |
 |---|---:|
-| MIT | 11 |
+| MIT | 12 |
 | unknown | 8 |
 | CC0-1.0 | 2 |
 | GPL-3.0 | 2 |
@@ -205,6 +205,8 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 ## Current Status
 
 The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, JSON-driven README stats, and the first 25 validated repositories are now in place. The immediate priority is to keep catalogue quality high while improving review depth, link checking, and website discovery features.
+
+
 
 
 
