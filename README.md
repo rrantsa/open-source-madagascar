@@ -47,10 +47,10 @@ The MVP does not yet include automated crawling, user accounts, or project scori
 This section is generated from `data/repositories.json`.
 
 <!-- STATS:START -->
-- Total repositories: **27**
+- Total repositories: **28**
 - Categories represented: **14 / 18**
 - Repositories with known licenses: **19**
-- Repositories with unknown licenses: **8**
+- Repositories with unknown licenses: **9**
 - Repositories with unknown status: **3**
 
 ### By Category
@@ -71,18 +71,18 @@ _Counts include both primary `category` values and secondary `additional_categor
 | Language and AI | `language-ai` | 6 |
 | Culture and History | `culture-history` | 2 |
 | Meta Catalogue | `meta-catalogue` | 3 |
-| Developer Tools | `developer-tools` | 3 |
+| Developer Tools | `developer-tools` | 4 |
 | Datasets | `datasets` | 6 |
 | Environment | `environment` | 1 |
 | Community | `community` | 3 |
-| Offline-first | `offline-first` | 4 |
+| Offline-first | `offline-first` | 5 |
 | Security and Identity | `security-identity` | 0 |
 
 ### By Status
 
 | Value | Count |
 |---|---:|
-| experimental | 8 |
+| experimental | 9 |
 | inactive | 8 |
 | active | 6 |
 | unknown | 3 |
@@ -93,7 +93,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 | Value | Count |
 |---|---:|
 | MIT | 12 |
-| unknown | 8 |
+| unknown | 9 |
 | CC0-1.0 | 2 |
 | GPL-3.0 | 2 |
 | BSD-3-Clause | 1 |
@@ -205,6 +205,7 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 ## Current Status
 
 The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, JSON-driven README stats, and the first 25 validated repositories are now in place. The immediate priority is to keep catalogue quality high while improving review depth, link checking, and website discovery features.
+
 
 
 

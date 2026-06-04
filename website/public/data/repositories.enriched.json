@@ -29,7 +29,7 @@
     "github_repo": "sekoliko",
     "repository_path": "julkwel/sekoliko",
     "stars": 59,
-    "forks": 55,
+    "forks": 54,
     "last_updated": "2023-07-19T09:18:50Z"
   },
   {
@@ -233,7 +233,7 @@
     "github_owner": "Rohan29-AN",
     "github_repo": "rakibolana_malagasy",
     "repository_path": "Rohan29-AN/rakibolana_malagasy",
-    "stars": 13,
+    "stars": 16,
     "forks": 2,
     "last_updated": "2025-09-12T17:00:24Z"
   },
@@ -266,7 +266,7 @@
     "github_owner": "pocketenv-io",
     "github_repo": "pocketenv",
     "repository_path": "pocketenv-io/pocketenv",
-    "stars": 67,
+    "stars": 69,
     "forks": 5,
     "last_updated": "2026-04-15T09:36:56Z"
   },
@@ -480,7 +480,7 @@
     "github_owner": "julkwel",
     "github_repo": "signaleo",
     "repository_path": "julkwel/signaleo",
-    "stars": 38,
+    "stars": 37,
     "forks": 13,
     "last_updated": "2023-11-12T01:55:46Z"
   },
@@ -552,7 +552,7 @@
     "github_owner": "RajaRakoto",
     "github_repo": "cntemad-repository",
     "repository_path": "RajaRakoto/cntemad-repository",
-    "stars": 77,
+    "stars": 76,
     "forks": 36,
     "last_updated": "2024-09-22T09:12:43Z"
   },
@@ -593,7 +593,7 @@
     "repository_path": "fenoh3ry/imaginarium",
     "stars": 1,
     "forks": 0,
-    "last_updated": "2026-05-15T20:35:10Z"
+    "last_updated": "2026-05-24T20:01:45Z"
   },
   {
     "name": "Fataplus Tsena ny Tantsaha",
@@ -916,9 +916,9 @@
     "github_owner": "Hernat",
     "github_repo": "VeriSphere",
     "repository_path": "Hernat/VeriSphere",
-    "stars": 4,
+    "stars": 8,
     "forks": 0,
-    "last_updated": "2026-05-20T12:47:37Z"
+    "last_updated": "2026-05-30T17:43:20Z"
   },
   {
     "name": "Voragg CLI",
@@ -953,6 +953,43 @@
     "repository_path": "laza-niaina/voragg-cli",
     "stars": 0,
     "forks": 0,
-    "last_updated": null
+    "last_updated": "2026-06-04T04:33:23Z"
+  },
+  {
+    "name": "mi-saina",
+    "url": "https://github.com/raantss18/mi-saina",
+    "description": "Local AI coding assistant with shell access, file management, web search, semantic memory, and a web UI built to run fully on-device through Ollama.",
+    "category": "developer-tools",
+    "additional_categories": [
+      "offline-first"
+    ],
+    "language": "Python and TypeScript",
+    "framework": "FastAPI, Next.js, Ollama, and SQLite-backed semantic memory",
+    "license": "unknown",
+    "status": "experimental",
+    "maintainer": "raantss18",
+    "target_users": [
+      "developers",
+      "AI builders",
+      "Linux power users",
+      "offline local-AI users"
+    ],
+    "madagascar_relevance": "The repository appears to be built by a Malagasy developer and is explicitly designed to run fully locally, which makes it a useful developer tool for Madagascar-based builders who need low-connectivity-friendly and privacy-preserving AI workflows.",
+    "tags": [
+      "madagascar",
+      "developer-tools",
+      "offline-first",
+      "local-ai",
+      "ollama",
+      "coding-assistant"
+    ],
+    "notes": "The public repository was created on 2026-06-03 and shows visible activity on 2026-06-04. The README describes 'mi-saina' as a local Claude Code-style assistant built around Ollama, but no reusable open source license file or license metadata was present during review, so the catalogue keeps the license as 'unknown'. The small commit history and early setup-oriented scope make 'experimental' the safest status.",
+    "slug": "raantss18-mi-saina",
+    "github_owner": "raantss18",
+    "github_repo": "mi-saina",
+    "repository_path": "raantss18/mi-saina",
+    "stars": 3,
+    "forks": 1,
+    "last_updated": "2026-06-04T09:11:55Z"
   }
 ]

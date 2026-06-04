@@ -765,5 +765,35 @@
       "media"
     ],
     "notes": "The public repository includes a clear MIT license and a README updated on 2026-05-29 with installation, usage, and supported-player details. The project is already usable, but its recent initial release posture and narrow single-purpose scope make 'experimental' the safest catalogue status."
+  },
+  {
+    "name": "mi-saina",
+    "url": "https://github.com/raantss18/mi-saina",
+    "description": "Local AI coding assistant with shell access, file management, web search, semantic memory, and a web UI built to run fully on-device through Ollama.",
+    "category": "developer-tools",
+    "additional_categories": [
+      "offline-first"
+    ],
+    "language": "Python and TypeScript",
+    "framework": "FastAPI, Next.js, Ollama, and SQLite-backed semantic memory",
+    "license": "unknown",
+    "status": "experimental",
+    "maintainer": "raantss18",
+    "target_users": [
+      "developers",
+      "AI builders",
+      "Linux power users",
+      "offline local-AI users"
+    ],
+    "madagascar_relevance": "The repository appears to be built by a Malagasy developer and is explicitly designed to run fully locally, which makes it a useful developer tool for Madagascar-based builders who need low-connectivity-friendly and privacy-preserving AI workflows.",
+    "tags": [
+      "madagascar",
+      "developer-tools",
+      "offline-first",
+      "local-ai",
+      "ollama",
+      "coding-assistant"
+    ],
+    "notes": "The public repository was created on 2026-06-03 and shows visible activity on 2026-06-04. The README describes 'mi-saina' as a local Claude Code-style assistant built around Ollama, but no reusable open source license file or license metadata was present during review, so the catalogue keeps the license as 'unknown'. The small commit history and early setup-oriented scope make 'experimental' the safest status."
   }
 ]
