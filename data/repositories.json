@@ -795,5 +795,38 @@
       "coding-assistant"
     ],
     "notes": "The public repository was created on 2026-06-03 and shows visible activity on 2026-06-04. The README describes 'mi-saina' as a local Claude Code-style assistant built around Ollama, but no reusable open source license file or license metadata was present during review, so the catalogue keeps the license as 'unknown'. The small commit history and early setup-oriented scope make 'experimental' the safest status."
+  },
+  {
+    "name": "screenkb",
+    "url": "https://github.com/rrantsa/screenkb-vision-ocr",
+    "description": "Python CLI for offline OCR, computer vision, and layout analysis that turns screenshots, scanned documents, and photos into structured JSON.",
+    "category": "language-ai",
+    "additional_categories": [
+      "offline-first",
+      "developer-tools"
+    ],
+    "language": "Python",
+    "framework": "Tesseract OCR, OpenCV, and SQLite-backed rule engine CLI",
+    "license": "MIT",
+    "status": "experimental",
+    "maintainer": "rrantsa",
+    "target_users": [
+      "developers",
+      "AI builders",
+      "document digitization teams",
+      "researchers"
+    ],
+    "madagascar_relevance": "Fully offline OCR and document-image analysis can help Madagascar-based builders digitize paperwork, scans, screenshots, and other image-based content in low-connectivity settings without needing cloud inference or a GPU.",
+    "tags": [
+      "madagascar",
+      "ocr",
+      "computer-vision",
+      "language-ai",
+      "offline-first",
+      "python",
+      "tesseract",
+      "opencv"
+    ],
+    "notes": "The public repository was created on 2026-06-19 and already documents a working CLI with OCR, layout detection, learnable SQLite rules, and optional LLM backends. Its same-day initial release posture makes 'experimental' the safest catalogue status."
   }
 ]

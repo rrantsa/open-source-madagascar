@@ -65,8 +65,8 @@
     "github_owner": "julkwel",
     "github_repo": "madagascar-map",
     "repository_path": "julkwel/madagascar-map",
-    "stars": 66,
-    "forks": 50,
+    "stars": 67,
+    "forks": 51,
     "last_updated": "2024-01-08T07:40:10Z"
   },
   {
@@ -412,7 +412,7 @@
     "repository_path": "botjagwar/botjagwar",
     "stars": 4,
     "forks": 0,
-    "last_updated": "2025-12-30T22:46:05Z"
+    "last_updated": "2026-06-11T00:35:36Z"
   },
   {
     "name": "Malagasy TTS",
@@ -552,8 +552,8 @@
     "github_owner": "RajaRakoto",
     "github_repo": "cntemad-repository",
     "repository_path": "RajaRakoto/cntemad-repository",
-    "stars": 76,
-    "forks": 36,
+    "stars": 75,
+    "forks": 37,
     "last_updated": "2024-09-22T09:12:43Z"
   },
   {
@@ -882,7 +882,7 @@
     "github_owner": "BlueTech-team",
     "github_repo": "OpenMada",
     "repository_path": "BlueTech-team/OpenMada",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "last_updated": "2026-05-17T19:14:00Z"
   },
@@ -951,7 +951,7 @@
     "github_owner": "laza-niaina",
     "github_repo": "voragg-cli",
     "repository_path": "laza-niaina/voragg-cli",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "last_updated": "2026-06-04T04:33:23Z"
   },
@@ -988,8 +988,48 @@
     "github_owner": "raantss18",
     "github_repo": "mi-saina",
     "repository_path": "raantss18/mi-saina",
-    "stars": 3,
-    "forks": 1,
-    "last_updated": "2026-06-04T09:11:55Z"
+    "stars": 5,
+    "forks": 2,
+    "last_updated": "2026-06-10T12:33:52Z"
+  },
+  {
+    "name": "screenkb",
+    "url": "https://github.com/rrantsa/screenkb-vision-ocr",
+    "description": "Python CLI for offline OCR, computer vision, and layout analysis that turns screenshots, scanned documents, and photos into structured JSON.",
+    "category": "language-ai",
+    "additional_categories": [
+      "offline-first",
+      "developer-tools"
+    ],
+    "language": "Python",
+    "framework": "Tesseract OCR, OpenCV, and SQLite-backed rule engine CLI",
+    "license": "MIT",
+    "status": "experimental",
+    "maintainer": "rrantsa",
+    "target_users": [
+      "developers",
+      "AI builders",
+      "document digitization teams",
+      "researchers"
+    ],
+    "madagascar_relevance": "Fully offline OCR and document-image analysis can help Madagascar-based builders digitize paperwork, scans, screenshots, and other image-based content in low-connectivity settings without needing cloud inference or a GPU.",
+    "tags": [
+      "madagascar",
+      "ocr",
+      "computer-vision",
+      "language-ai",
+      "offline-first",
+      "python",
+      "tesseract",
+      "opencv"
+    ],
+    "notes": "The public repository was created on 2026-06-19 and already documents a working CLI with OCR, layout detection, learnable SQLite rules, and optional LLM backends. Its same-day initial release posture makes 'experimental' the safest catalogue status.",
+    "slug": "rrantsa-screenkb-vision-ocr",
+    "github_owner": "rrantsa",
+    "github_repo": "screenkb-vision-ocr",
+    "repository_path": "rrantsa/screenkb-vision-ocr",
+    "stars": 0,
+    "forks": 0,
+    "last_updated": "2026-06-19T17:38:06Z"
   }
 ]

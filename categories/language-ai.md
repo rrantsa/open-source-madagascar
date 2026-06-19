@@ -88,3 +88,18 @@ This category will list open source projects for Malagasy NLP, OCR, translation,
 - Target users: Students, teachers, researchers, Malagasy culture enthusiasts
 - Madagascar relevance: The project is built specifically around Malagasy cultural content and language exploration, making it directly relevant to Malagasy language preservation, heritage education, and local AI-assisted discovery workflows.
 - Notes: The public repository includes a clear MIT license and recent visible activity in May 2026. Its focus on ohabolana and other Malagasy oral-tradition content gives it clear secondary relevance to `culture-history`.
+
+### screenkb
+
+- Repository: https://github.com/rrantsa/screenkb-vision-ocr
+- Description: Python CLI for offline OCR, computer vision, and layout analysis that turns screenshots, scanned documents, and photos into structured JSON.
+- Category: language-ai
+- Additional categories: offline-first, developer-tools
+- Language: Python
+- Framework: Tesseract OCR, OpenCV, and SQLite-backed rule engine CLI
+- License: MIT
+- Status: experimental
+- Maintainer: rrantsa
+- Target users: Developers, AI builders, document digitization teams, researchers
+- Madagascar relevance: Fully offline OCR and document-image analysis can help Madagascar-based builders digitize paperwork, scans, screenshots, and other image-based content in low-connectivity settings without needing cloud inference or a GPU.
+- Notes: The public repository was created on 2026-06-19 and already documents a working CLI with OCR, layout detection, learnable SQLite rules, and optional LLM backends. Its same-day initial release posture makes `experimental` the safest catalogue status.
