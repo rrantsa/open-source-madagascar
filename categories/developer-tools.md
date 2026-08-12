@@ -32,3 +32,18 @@ This category will list open source libraries, templates, testing tools, deploym
 - Target users: Developers, AI builders, Linux power users, offline local-AI users
 - Madagascar relevance: The repository appears to be built by a Malagasy developer and is explicitly designed to run fully locally, which makes it a useful developer tool for Madagascar-based builders who need low-connectivity-friendly and privacy-preserving AI workflows.
 - Notes: The public repository was created on 2026-06-03 and shows visible activity on 2026-06-04. The README describes `mi-saina` as a local Claude Code-style assistant built around Ollama, but no reusable open source license file or license metadata was present during review, so the catalogue keeps the license as `unknown`. The small commit history and early setup-oriented scope make `experimental` the safest status.
+
+### MikeaOS
+
+- Repository: https://github.com/tantelyorion/mikea-os
+- Description: From-scratch x86_64 operating system project with a custom bootloader, freestanding C kernel, shell, filesystem, executable format, and early package manager.
+- Category: developer-tools
+- Additional categories: education
+- Language: C and x86_64 Assembly
+- Framework: Freestanding x86_64 OS with custom bootloader, MKFS filesystem, MKX executable format, and MPM package manager
+- License: GPL-3.0
+- Status: experimental
+- Maintainer: tantelyorion
+- Target users: Systems programmers, low-level developers, computer science students, OS hobbyists
+- Madagascar relevance: The repository appears to be built by a Malagasy developer and provides a substantial from-scratch operating system codebase that can serve as a reusable learning and experimentation resource for systems programming communities in Madagascar.
+- Notes: GitHub shows a public GPL-3.0 license and a visible commit on 2026-08-11. The README is detailed but also documents major current limits, including text-mode-only UI, non-persistent filesystem state across reboots, no Ring 3 isolation, and an in-memory package manager, so `experimental` is the safest catalogue status.

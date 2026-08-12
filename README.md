@@ -47,9 +47,9 @@ The MVP does not yet include automated crawling, user accounts, or project scori
 This section is generated from `data/repositories.json`.
 
 <!-- STATS:START -->
-- Total repositories: **29**
+- Total repositories: **30**
 - Categories represented: **14 / 18**
-- Repositories with known licenses: **20**
+- Repositories with known licenses: **21**
 - Repositories with unknown licenses: **9**
 - Repositories with unknown status: **3**
 
@@ -62,7 +62,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 | Payments | `payments` | 0 |
 | E-commerce | `ecommerce` | 0 |
 | Delivery and Addressing | `delivery-addressing` | 5 |
-| Education | `education` | 2 |
+| Education | `education` | 3 |
 | Health | `health` | 0 |
 | Agriculture | `agriculture` | 1 |
 | Public Services | `public-services` | 3 |
@@ -71,7 +71,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 | Language and AI | `language-ai` | 7 |
 | Culture and History | `culture-history` | 2 |
 | Meta Catalogue | `meta-catalogue` | 3 |
-| Developer Tools | `developer-tools` | 5 |
+| Developer Tools | `developer-tools` | 6 |
 | Datasets | `datasets` | 6 |
 | Environment | `environment` | 1 |
 | Community | `community` | 3 |
@@ -82,7 +82,7 @@ _Counts include both primary `category` values and secondary `additional_categor
 
 | Value | Count |
 |---|---:|
-| experimental | 10 |
+| experimental | 11 |
 | inactive | 8 |
 | active | 6 |
 | unknown | 3 |
@@ -94,8 +94,8 @@ _Counts include both primary `category` values and secondary `additional_categor
 |---|---:|
 | MIT | 13 |
 | unknown | 9 |
+| GPL-3.0 | 3 |
 | CC0-1.0 | 2 |
-| GPL-3.0 | 2 |
 | BSD-3-Clause | 1 |
 | CC-BY-SA-4.0 | 1 |
 | MPL-2.0 | 1 |
@@ -205,6 +205,8 @@ The repository can evolve toward bilingual or trilingual documentation. Initial 
 ## Current Status
 
 The repository is in active curation mode. Core documentation, catalogue standards, contributor workflows, JSON-driven README stats, and the first 25 validated repositories are now in place. The immediate priority is to keep catalogue quality high while improving review depth, link checking, and website discovery features.
+
+
 
 
 

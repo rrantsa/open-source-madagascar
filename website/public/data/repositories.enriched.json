@@ -65,8 +65,8 @@
     "github_owner": "julkwel",
     "github_repo": "madagascar-map",
     "repository_path": "julkwel/madagascar-map",
-    "stars": 67,
-    "forks": 51,
+    "stars": 69,
+    "forks": 53,
     "last_updated": "2024-01-08T07:40:10Z"
   },
   {
@@ -131,7 +131,7 @@
     "github_owner": "SetraC4Ci",
     "github_repo": "Gasy-Corpus-Crawler",
     "repository_path": "SetraC4Ci/Gasy-Corpus-Crawler",
-    "stars": 4,
+    "stars": 5,
     "forks": 0,
     "last_updated": "2024-11-07T15:19:33Z"
   },
@@ -233,8 +233,8 @@
     "github_owner": "Rohan29-AN",
     "github_repo": "rakibolana_malagasy",
     "repository_path": "Rohan29-AN/rakibolana_malagasy",
-    "stars": 16,
-    "forks": 2,
+    "stars": 18,
+    "forks": 3,
     "last_updated": "2025-09-12T17:00:24Z"
   },
   {
@@ -266,7 +266,7 @@
     "github_owner": "pocketenv-io",
     "github_repo": "pocketenv",
     "repository_path": "pocketenv-io/pocketenv",
-    "stars": 69,
+    "stars": 70,
     "forks": 5,
     "last_updated": "2026-04-15T09:36:56Z"
   },
@@ -338,7 +338,7 @@
     "github_owner": "julkwel",
     "github_repo": "madagascar-map-api",
     "repository_path": "julkwel/madagascar-map-api",
-    "stars": 33,
+    "stars": 34,
     "forks": 5,
     "last_updated": "2024-01-22T04:51:53Z"
   },
@@ -412,7 +412,7 @@
     "repository_path": "botjagwar/botjagwar",
     "stars": 4,
     "forks": 0,
-    "last_updated": "2026-06-11T00:35:36Z"
+    "last_updated": "2026-07-17T23:00:20Z"
   },
   {
     "name": "Malagasy TTS",
@@ -443,7 +443,7 @@
     "github_owner": "elloza",
     "github_repo": "malagasy-tts",
     "repository_path": "elloza/malagasy-tts",
-    "stars": 1,
+    "stars": 2,
     "forks": 1,
     "last_updated": "2025-06-30T11:13:48Z"
   },
@@ -552,7 +552,7 @@
     "github_owner": "RajaRakoto",
     "github_repo": "cntemad-repository",
     "repository_path": "RajaRakoto/cntemad-repository",
-    "stars": 75,
+    "stars": 77,
     "forks": 37,
     "last_updated": "2024-09-22T09:12:43Z"
   },
@@ -953,7 +953,7 @@
     "repository_path": "laza-niaina/voragg-cli",
     "stars": 1,
     "forks": 0,
-    "last_updated": "2026-06-04T04:33:23Z"
+    "last_updated": "2026-07-04T19:46:46Z"
   },
   {
     "name": "mi-saina",
@@ -990,7 +990,7 @@
     "repository_path": "raantss18/mi-saina",
     "stars": 5,
     "forks": 2,
-    "last_updated": "2026-06-10T12:33:52Z"
+    "last_updated": "2026-07-26T10:45:47Z"
   },
   {
     "name": "screenkb",
@@ -1028,8 +1028,47 @@
     "github_owner": "rrantsa",
     "github_repo": "screenkb-vision-ocr",
     "repository_path": "rrantsa/screenkb-vision-ocr",
-    "stars": 0,
+    "stars": 2,
     "forks": 0,
-    "last_updated": "2026-06-19T17:38:06Z"
+    "last_updated": "2026-06-25T05:59:08Z"
+  },
+  {
+    "name": "MikeaOS",
+    "url": "https://github.com/tantelyorion/mikea-os",
+    "description": "From-scratch x86_64 operating system project with a custom bootloader, freestanding C kernel, shell, filesystem, executable format, and early package manager.",
+    "category": "developer-tools",
+    "additional_categories": [
+      "education"
+    ],
+    "language": "C and x86_64 Assembly",
+    "framework": "Freestanding x86_64 OS with custom bootloader, MKFS filesystem, MKX executable format, and MPM package manager",
+    "license": "GPL-3.0",
+    "status": "experimental",
+    "maintainer": "tantelyorion",
+    "target_users": [
+      "systems programmers",
+      "low-level developers",
+      "computer science students",
+      "OS hobbyists"
+    ],
+    "madagascar_relevance": "The repository appears to be built by a Malagasy developer and provides a substantial from-scratch operating system codebase that can serve as a reusable learning and experimentation resource for systems programming communities in Madagascar.",
+    "tags": [
+      "madagascar",
+      "developer-tools",
+      "education",
+      "operating-system",
+      "kernel",
+      "x86-64",
+      "c",
+      "assembly"
+    ],
+    "notes": "GitHub shows a public GPL-3.0 license and a visible commit on 2026-08-11. The README is detailed but also documents major current limits, including text-mode-only UI, non-persistent filesystem state across reboots, no Ring 3 isolation, and an in-memory package manager, so 'experimental' is the safest catalogue status.",
+    "slug": "tantelyorion-mikea-os",
+    "github_owner": "tantelyorion",
+    "github_repo": "mikea-os",
+    "repository_path": "tantelyorion/mikea-os",
+    "stars": 20,
+    "forks": 0,
+    "last_updated": "2026-08-12T08:02:27Z"
   }
 ]
