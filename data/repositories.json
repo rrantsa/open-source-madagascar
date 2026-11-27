@@ -860,5 +860,34 @@
       "assembly"
     ],
     "notes": "GitHub shows a public GPL-3.0 license and a visible commit on 2026-08-11. The README is detailed but also documents major current limits, including text-mode-only UI, non-persistent filesystem state across reboots, no Ring 3 isolation, and an in-memory package manager, so 'experimental' is the safest catalogue status."
+  },
+  {
+    "name": "Passeport Madagascar Paris",
+    "url": "https://github.com/Harrylepap/suivi-passeport-mg",
+    "description": "Telegram bot that tells Malagasy citizens in France when their passport is ready for collection at the Embassy in Paris, by reading the embassy's image-based lists with OCR.",
+    "category": "civic-tech",
+    "additional_categories": [
+      "public-services"
+    ],
+    "language": "Python, JavaScript",
+    "framework": "Cloudflare Workers, GitHub Actions, and Tesseract OCR",
+    "license": "MIT",
+    "status": "active",
+    "maintainer": "Harrylepap",
+    "target_users": [
+      "Malagasy citizens in France",
+      "Malagasy diaspora"
+    ],
+    "madagascar_relevance": "The Embassy of Madagascar in France announces ready passports only as images of receipt-number tables, with no search or notification. The bot indexes these lists, answers by receipt number, and notifies people when their number appears.",
+    "tags": [
+      "madagascar",
+      "civic-tech",
+      "public-services",
+      "passport",
+      "telegram-bot",
+      "ocr",
+      "cloudflare-workers"
+    ],
+    "notes": "GitHub shows a public MIT license and continuous activity since 2026-11-25, with automated tests and releases. Unofficial volunteer service, not affiliated with the Embassy of Madagascar in France. The repository contains no personal data; user data handling is documented in a public GDPR processing register."
   }
 ]
